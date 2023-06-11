@@ -8,6 +8,13 @@ services:
     container_name: strapi_app
     ports:
       - 1337:1337
+  app_development:
+    build:
+      context: ./
+      dockerfile: Dockerfile.development
+    container_name: strapi_app_development
+    ports:
+      - 1338:1338
   nginx:
     image: nginx:latest
     container_name: strapi_nginx_app

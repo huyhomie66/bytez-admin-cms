@@ -9,7 +9,7 @@ RUN npm install -g npm@9.5.1
 
 RUN npm install
 
-COPY .env.dev .env
+COPY ./.env.dev ./.env
 
 COPY . .
 
