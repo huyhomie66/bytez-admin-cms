@@ -13,7 +13,7 @@ COPY ./.env.dev ./.env
 
 COPY . .
 
-RUN npm run build
+# RUN npm run build
 
 EXPOSE 1338
 

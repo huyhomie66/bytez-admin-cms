@@ -1,0 +1,108 @@
+{
+    "pages": [
+        {
+            "page": "home",
+            "sections": [
+                {
+                    "left": {
+                        "title": "Sequence the genomes of your IVF embryos",
+                        "content": "For many hopeful parents facing infertility, in vitro fertilization (IVF) offers a chance at realizing their dream of having a child. Today, IVF success rates have climbed steadily higher with advances in technology and testing. At GenEmbryomics, we strive to take this progress a step further through our pre-implantation whole genome sequencing test, GenomeScreen®."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "mid": {
+                        "content": "Screen your embryos by unlocking /nthe power of the genome"
+                    }
+                },
+                {
+                    "left": {
+                        "image": ""
+                    },
+                    "right": {
+                        "title": "Genetic diseases that affects Embrayo",
+                        "content": "While standard pre-implantation genetic testing (PGT) checks for major anomalies, it misses thousands of genetic variants that could cause debilitating diseases in future children.  Our test provides comprehensive information so parents can make truly empowered choices during IVF to give their future baby the healthiest start possible."
+                    }
+                },
+                {
+                    "left": {
+                        "title": "Fertility specialist \nBelieve about \nEmbrayo ",
+                        "content": "GenomeScreen® analyzes up to 98% of each embryo's genome, revealing mutations inherited from parents as well as de novo mutations that arise randomly during conception. This reveals risks for single-gene disorders, chromosomal abnormalities, and more. Our data shows 99.97% accuracy for inherited mutations and over 99% for de novo mutations, backed by rigorous performance metrics."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "left": {
+                        "image": ""
+                    },
+                    "right": {
+                        "title": "How to make IVF\nFree from genetic\ndiseases",
+                        "content": "At GenEmbryomics, we understand infertility and the IVF journey can be difficult enough without added worries. Our goal is to support hopeful parents and their providers throughout with the most accurate and actionable genome information, enabling choices guided by deeper understanding and greater confidence. From collection to analysis to results, our GenomeScreen® service strives to bring peace of mind as parents welcome their newest family member into the world."
+                    }
+                },
+                {
+                    "left": {
+                        "title": "A solution that is\ncapable of screning\n100% genetic diseases",
+                        "content": "If you are considering IVF treatment and would like more information about how genome screening with GenomeScreen®  could optimize your chances for success, please feel free to contact us. We are here to listen to your story with care, empathy and professional expertise, and help you navigate your path forward."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "title": "Blog",
+                    "blogs": [
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "createDate": "",
+                                "title": "",
+                                "content": ""
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "createDate": "",
+                                "title": "",
+                                "content": ""
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "createDate": "",
+                                "title": "",
+                                "content": ""
+                            }
+                        }
+                    ],
+                },
+                {
+                    "mid": {
+                        "image": "",
+                        "content": "“I’ve completed support from my Agency  about 1 years ago. Their make the prototyping process so easy and faster. I feel this is the best apps for the prototyping use”",
+                        "ceo": "William Smith\nCEO f ZaVad Company"
+                    }
+                },
+                {
+                    "mid": {
+                        "image": "",
+                        "title": "",
+                        "button": "submit"
+                    }
+                }
+            ]
+        }
+    ]
+}
