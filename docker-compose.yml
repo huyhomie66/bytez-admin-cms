@@ -14,7 +14,7 @@ services:
       dockerfile: Dockerfile.development
     container_name: strapi_app_development
     ports:
-      - 1338:1338
+      - 1338:1337
   nginx:
     image: nginx:latest
     container_name: strapi_nginx_app
