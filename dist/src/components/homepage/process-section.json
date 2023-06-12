@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_homepage_process_sections",
+    "info": {
+        "displayName": "Process-Section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "description": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "image": {
+            "type": "string"
+        }
+    }
+}

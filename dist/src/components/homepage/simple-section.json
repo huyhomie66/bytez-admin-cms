@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_homepage_simple_sections",
+    "info": {
+        "displayName": "Simple-Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "description": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        }
+    }
+}

@@ -4,6 +4,8 @@
             "page": "home",
             "sections": [
                 {
+                    "sectionName": "1",
+                    "sectionType": "left-right",
                     "left": {
                         "title": "Sequence the genomes of your IVF embryos",
                         "content": "For many hopeful parents facing infertility, in vitro fertilization (IVF) offers a chance at realizing their dream of having a child. Today, IVF success rates have climbed steadily higher with advances in technology and testing. At GenEmbryomics, we strive to take this progress a step further through our pre-implantation whole genome sequencing test, GenomeScreen®."
@@ -13,11 +15,15 @@
                     }
                 },
                 {
+                    "sectionName": "2",
+                    "sectionType": "mid",
                     "mid": {
                         "content": "Screen your embryos by unlocking /nthe power of the genome"
                     }
                 },
                 {
+                    "sectionName": "3",
+                    "sectionType": "left-right",
                     "left": {
                         "image": ""
                     },
@@ -27,6 +33,8 @@
                     }
                 },
                 {
+                    "sectionName": "4",
+                    "sectionType": "left-right",
                     "left": {
                         "title": "Fertility specialist \nBelieve about \nEmbrayo ",
                         "content": "GenomeScreen® analyzes up to 98% of each embryo's genome, revealing mutations inherited from parents as well as de novo mutations that arise randomly during conception. This reveals risks for single-gene disorders, chromosomal abnormalities, and more. Our data shows 99.97% accuracy for inherited mutations and over 99% for de novo mutations, backed by rigorous performance metrics."
@@ -36,6 +44,8 @@
                     }
                 },
                 {
+                    "sectionName": "5",
+                    "sectionType": "left-right",
                     "left": {
                         "image": ""
                     },
@@ -45,6 +55,8 @@
                     }
                 },
                 {
+                    "sectionName": "6",
+                    "sectionType": "left-right",
                     "left": {
                         "title": "A solution that is\ncapable of screning\n100% genetic diseases",
                         "content": "If you are considering IVF treatment and would like more information about how genome screening with GenomeScreen®  could optimize your chances for success, please feel free to contact us. We are here to listen to your story with care, empathy and professional expertise, and help you navigate your path forward."
@@ -54,6 +66,8 @@
                     }
                 },
                 {
+                    "sectionName": "7",
+                    "sectionType": "list-block",
                     "title": "Blog",
                     "blogs": [
                         {
@@ -89,6 +103,8 @@
                     ],
                 },
                 {
+                    "sectionName": "8",
+                    "sectionType": "mid",
                     "mid": {
                         "image": "",
                         "content": "“I’ve completed support from my Agency  about 1 years ago. Their make the prototyping process so easy and faster. I feel this is the best apps for the prototyping use”",
@@ -96,10 +112,326 @@
                     }
                 },
                 {
+                    "sectionName": "9",
+                    "sectionType": "left-right",
                     "mid": {
                         "image": "",
                         "title": "",
                         "button": "submit"
+                    }
+                }
+            ]
+        },
+        {
+            "page": "how-it-works-parents",
+            "sections": [
+                {
+                    "sectionName": "1",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "How it works for Parents\nHeadline here",
+                        "content": "You’ve probably come across us on your road to building a happy, healthy family. Our experienced team of practitioners care about the well-being of new parents and are committed to supporting your goal of providing the best developmental environmentchance for you and your baby./nIt is every parent’s goal to secure a safe, healthy future for their family. In harmony with this natural desire GenEmbryomics hasve developed aour supportive and comprehensive approach to pre-implantation embryo screening to complement your current IVF treatment."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "2",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "The Product",
+                        "content": "We have developed and pioneered the most innovative whole-genome sequencing embryonic screening test available today. What does this mean? Simply put, we work alongside your standard IVF therapy to provide detailed screening before embryonic transfer has been decided. Our tests are specifically searching for ANY inherited genetic mutations - these may be predicted due to the presence of certain genomes in parents OR the presence of unexpected mutations found in the embryo."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "3",
+                    "sectionType": "mid",
+                    "mid": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "4",
+                    "sectionType": "list-block",
+                    "blocks": [
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Title A",
+                                "content": "The screening process itself is simple and easy to arrange. Using the GenEmbryomics patient portal we can work with your doctor to arrange for a DNA sample collection to be sent to us. "
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Title B",
+                                "content": "Once it arrivesd at our state-of-the-art facilities, our team of professionals analyse the embryo genome sequence for any conditions or genetic mutations. The results are then compiled into a GenomeScreen summary which offers a detailed breakdown of the summary as well as guidance for the future health of your embryos."
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Title C",
+                                "content": "Our evaluation is conducted and returned in a completely confidential and easy to understand report. GenEmbryomic’s sophisticated screening affords you with the best possible information you need to assess the most beneficial course of action for both parents and embryos. With the right information at your disposal you are in the bestperfect position to ensurework towards the welfare of a healthy baby."
+                            }
+                        }
+                    ],
+                },
+                {
+                    "sectionName": "5",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "Key Highlights",
+                        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa \ninventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut\nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit "
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "6",
+                    "sectionType": "left-right",
+                    "left": {
+                        "image":""
+                    },
+                    "right": {
+                        "title": "",
+                        "content": "WGS is indicated for any IVF patient but strongly recommended on couples with male partners above 40 years of age."
+                    }
+                },
+                {
+                    "sectionName": "7",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "We’re listening!",
+                        "content": "We understand you may have many additional questions and would be very happy to talk through them with you."
+                    },
+                    "right": {
+                        "title": "Contact Us",
+                        "content": "FORM"
+                    }
+                }
+            ]
+        },
+        {
+            "page": "how-it-works-clinics",
+            "sections": [
+                {
+                    "sectionName": "1",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "How it works for Clinics\nHeadline here",
+                        "content": "Helping people realise their dream of growing a happy, healthy family is our passion. The team at GenEmbryomics is committed to supporting your efforts to make the very best decisions for your IVF patients.\nMany standard IVF endorsed screening systems are effective at picking up predicted genetic abnormalities, based on a set of routine checks. However, they often do not have the capability to search for the presence of unexpected abnormalities or De novo SNP mutations. GenEmbryomics isare the industry’s leading developers of whole genome sequencing for IVF."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "2",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "The GenomeScreen℠ Test",
+                        "content": "The GenomeScreen tests have a specificity and accuracy of 99.99% for inherited diseases. We are also able to detect 79% of De novo mutations. This pre-implantation screening is thorough enough to uncover the presence of genetic mutations which may result in future complications or inherited disease."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "3",
+                    "sectionType": "list-block",
+                    "title":" Simple to order. Simpler to assess. Even simpler to own.",
+                    "blocks": [
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "DNA Collected",
+                                "content": "IVF Clinic collects the DNA samples from parent donors and the embryo trophectoderm cells and sends the samples to the lab"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "DNA Sequenced",
+                                "content": "Lab provides whole genome sequencing for the DNA samples and uploads the FASTQ files for each sample to the GenEmbryomics HIPAA comoliant cloud server"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Cloud Bioinformatics",
+                                "content": "Mapping sequences into a BAM file\nShort variant calling\nCNV calling\nRepeat Expansion calling"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Clinical Report",
+                                "content": "The test report is sent to IVI clinic for IVF doctor to inform patients about the genetic health of the embryo"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Variant Curation",
+                                "content": "The data is curated by a variant curator and reported with a clinical geneticist."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "sectionName": "4",
+                    "sectionType": "list-block",
+                    "blocks": [
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "",
+                                "content": "GenEmbryomics equipment requires less than half the space"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "",
+                                "content": "weighs more than a factor of 100 less, and is 50-70% less expensive to buy and maintain."
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "",
+                                "content": "ROIs for hospitals will drop from >10 years to 3-4 years"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "sectionName": "5",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "Key Highlights",
+                        "content": "Ultra-compact, high performance laser will boost access to treatment for 70% of cancer inductions treated with protons can benefit over 2 million new patients annually\nNew business model will raise ARR, improve production economics, increase patient access beyond large hospitals\nStrategic partnerships with Proton International, Thales, IBA\nAwarded grant from competitive EU Horizon program; US/Israe; BIRD\nFoundation funding for US proton therapy centres; R&D collaboration with CERN in Geneva"
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                }
+            ]
+        },
+        {
+            "page": "about-us",
+            "sections": [
+                {
+                    "sectionName": "1",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "Our Mission",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    },
+                    "right": {
+                        "image": ""
+                    }
+                },
+                {
+                    "sectionName": "2",
+                    "sectionType": "list-block",
+                    "title": "The Team",
+                    "blocks": [
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Nick Murphy PhD\nFounder/CEO",
+                                "content": "Nick is the founder of GenEmbryomics. He has dedicated his life to the study of genetics and its application in the field of assisted reproductive technologies, immunogenetics and polygenic risk. With 10 years of experience in the IVF field, he founded GenEmbryomics which "
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Santiago Munné PhD\nDirector",
+                                "content": "PhD in Human Genetics from the University of Pittsburgh and a degree in Biology from the Autonomous University of Barcelona. CIO at Overture Life. Founder of: Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Jennifer Lawrence\nHead of OperationsO",
+                                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Kyle Day\nChief Technology Officer",
+                                "content": "Eldar Dedic is a variant scientist with over 5 years of experience in helping clinicians prevent disorders by classifying DNA variants. Throughout his career, he has interpreted 2,000+ variants from 500+ genes according to the ACMG guidelines. Eldar has also "
+                            }
+                        },
+                        {
+                            "top": {
+                                "image": ""
+                            },
+                            "bot": {
+                                "title": "Paul Viney\nBoard Chairman",
+                                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "sectionName": "3",
+                    "sectionType": "left-right",
+                    "left": {
+                        "image": ""
+                    },
+                    "right": {
+                        "title": "Feedback from\nOur Customers",
+                        "content": "“I’ve  Went ot America from Tripp Play  about 1 years ago. Tripp make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”"
+                    }
+                },
+                {
+                    "sectionName": "4",
+                    "sectionType": "left-right",
+                    "left": {
+                        "title": "Awards, Affiliations and Other accolades",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    },
+                    "right": {
+                        "image": ""
                     }
                 }
             ]

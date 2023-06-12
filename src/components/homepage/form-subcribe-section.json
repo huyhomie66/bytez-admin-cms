@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_form_subcribe_sections",
+  "info": {
+    "displayName": "Form-Subcribe-Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.text-kit"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.button-kit"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_homepage_banners",
+    "info": {
+        "displayName": "banner",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "backgroundImage": {
+            "type": "string"
+        },
+        "title": {
+            "displayName": "text-kit",
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "description": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "button": {
+            "displayName": "Button-kit",
+            "type": "component",
+            "repeatable": true,
+            "component": "content.button-kit"
+        }
+    }
+}

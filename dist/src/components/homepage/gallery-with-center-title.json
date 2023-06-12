@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_homepage_gallery_with_center_titles",
+    "info": {
+        "displayName": "Gallery-With-Center-Title"
+    },
+    "options": {},
+    "attributes": {
+        "description": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "subDescription": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "LeftGallery": {
+            "type": "component",
+            "repeatable": true,
+            "component": "homepage.left-gallery"
+        },
+        "RightGallery": {
+            "displayName": "RightGallery",
+            "type": "component",
+            "repeatable": true,
+            "component": "homepage.right-gallery"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_how_it_works_parents_banners",
+    "info": {
+        "displayName": "banner"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "description": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.text-kit"
+        },
+        "backgroundImage": {
+            "type": "string"
+        }
+    }
+}
