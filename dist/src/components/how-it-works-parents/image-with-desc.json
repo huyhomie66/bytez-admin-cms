@@ -1,22 +1,22 @@
 {
-    "collectionName": "components_how_it_works_parents_description_with_images",
+    "collectionName": "components_how_it_works_parents_image_with_descs",
     "info": {
-        "displayName": "DescriptionWithImage"
+        "displayName": "ImageWithDesc"
     },
     "options": {},
     "attributes": {
+        "image": {
+            "type": "string"
+        },
         "title": {
             "type": "component",
-            "repeatable": true,
+            "repeatable": false,
             "component": "content.text-kit"
         },
         "description": {
             "type": "component",
-            "repeatable": true,
+            "repeatable": false,
             "component": "content.text-kit"
-        },
-        "image": {
-            "type": "string"
         }
     }
 }

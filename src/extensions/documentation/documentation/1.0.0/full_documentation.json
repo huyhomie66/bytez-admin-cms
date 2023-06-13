@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-12T18:51:12.565Z"
+    "x-generation-date": "2023-06-13T17:35:13.512Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2575,7 +2575,54 @@
           }
         }
       },
-      "ContentRequest": {
+      "HomepageLocalizationRequest": {
+        "required": [
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "banner": {
+            "$ref": "#/components/schemas/HomepageBannerComponent"
+          },
+          "simpleSection": {
+            "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+          },
+          "firstProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "secondProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "thirdProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "fourthProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "galleryWithCenterTitleSection": {
+            "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+          },
+          "formSubcribeSection": {
+            "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
+          },
+          "locale": {
+            "type": "string"
+          }
+        }
+      },
+      "HomepageRequest": {
         "type": "object",
         "required": [
           "data"
@@ -2584,34 +2631,89 @@
           "data": {
             "type": "object",
             "properties": {
-              "content": {
+              "banner": {
+                "$ref": "#/components/schemas/HomepageBannerComponent"
+              },
+              "simpleSection": {
+                "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+              },
+              "firstProcessSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/ContentContentComponent"
+                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
                 }
+              },
+              "secondProcessSection": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                }
+              },
+              "thirdProcessSection": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                }
+              },
+              "fourthProcessSection": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                }
+              },
+              "galleryWithCenterTitleSection": {
+                "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+              },
+              "formSubcribeSection": {
+                "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
+              },
+              "locale": {
+                "type": "string"
               }
             }
           }
         }
       },
-      "ContentListResponseDataItem": {
+      "HomepageResponseDataObjectLocalized": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
           "attributes": {
-            "$ref": "#/components/schemas/Content"
+            "$ref": "#/components/schemas/Homepage"
           }
         }
       },
-      "ContentListResponse": {
+      "HomepageLocalizationResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/HomepageResponseDataObjectLocalized"
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      },
+      "HomepageListResponseDataItemLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/Homepage"
+          }
+        }
+      },
+      "HomepageLocalizationListResponse": {
         "type": "object",
         "properties": {
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/ContentListResponseDataItem"
+              "$ref": "#/components/schemas/HomepageListResponseDataItemLocalized"
             }
           },
           "meta": {
@@ -2640,14 +2742,90 @@
           }
         }
       },
-      "Content": {
+      "HomepageListResponseDataItem": {
         "type": "object",
         "properties": {
-          "content": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/Homepage"
+          }
+        }
+      },
+      "HomepageListResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/ContentContentComponent"
+              "$ref": "#/components/schemas/HomepageListResponseDataItem"
             }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer",
+                    "minimum": 25
+                  },
+                  "pageCount": {
+                    "type": "integer",
+                    "maximum": 1
+                  },
+                  "total": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Homepage": {
+        "type": "object",
+        "properties": {
+          "banner": {
+            "$ref": "#/components/schemas/HomepageBannerComponent"
+          },
+          "simpleSection": {
+            "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+          },
+          "firstProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "secondProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "thirdProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "fourthProcessSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+            }
+          },
+          "galleryWithCenterTitleSection": {
+            "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+          },
+          "formSubcribeSection": {
+            "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
           },
           "createdAt": {
             "type": "string",
@@ -2945,48 +3123,298 @@
                 }
               }
             }
+          },
+          "localizations": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Homepage"
+                }
+              }
+            }
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
-      "ContentResponseDataObject": {
+      "HomepageResponseDataObject": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
           "attributes": {
-            "$ref": "#/components/schemas/Content"
+            "$ref": "#/components/schemas/Homepage"
           }
         }
       },
-      "ContentResponse": {
+      "HomepageResponse": {
         "type": "object",
         "properties": {
           "data": {
-            "$ref": "#/components/schemas/ContentResponseDataObject"
+            "$ref": "#/components/schemas/HomepageResponseDataObject"
           },
           "meta": {
             "type": "object"
           }
         }
       },
-      "ContentContentComponent": {
+      "HomepageBannerComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "backgroundImage": {
+            "type": "string"
+          },
+          "title": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "button": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "link": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "HomepageSimpleSectionComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "description": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "HomepageProcessSectionComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
           "title": {
-            "type": "string"
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
           },
-          "content": {
-            "type": "string"
+          "description": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
           },
-          "images": {
+          "image": {
             "type": "string"
+          }
+        }
+      },
+      "HomepageGalleryWithCenterTitleComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
           },
-          "buttons": {
-            "type": "string"
+          "description": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "subDescription": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "LeftGallery": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "ImageTop": {
+                  "type": "string"
+                },
+                "ImageMid": {
+                  "type": "string"
+                },
+                "ImageBot": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "RightGallery": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "ImageTop": {
+                  "type": "string"
+                },
+                "ImageMid": {
+                  "type": "string"
+                },
+                "ImageBot": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "HomepageFormSubcribeSectionComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "button": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "link": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -5775,7 +6203,7 @@
         "operationId": "delete/contacts/{id}"
       }
     },
-    "/contents": {
+    "/homepage": {
       "get": {
         "responses": {
           "200": {
@@ -5783,7 +6211,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ContentListResponse"
+                  "$ref": "#/components/schemas/HomepageResponse"
                 }
               }
             }
@@ -5840,7 +6268,7 @@
           }
         },
         "tags": [
-          "Content"
+          "Homepage"
         ],
         "parameters": [
           {
@@ -5945,168 +6373,7 @@
             }
           }
         ],
-        "operationId": "get/contents"
-      },
-      "post": {
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ContentResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "Internal Server Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "tags": [
-          "Content"
-        ],
-        "parameters": [],
-        "operationId": "post/contents",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ContentRequest"
-              }
-            }
-          }
-        }
-      }
-    },
-    "/contents/{id}": {
-      "get": {
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ContentResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "Internal Server Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "tags": [
-          "Content"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "number"
-            }
-          }
-        ],
-        "operationId": "get/contents/{id}"
+        "operationId": "get/homepage"
       },
       "put": {
         "responses": {
@@ -6115,7 +6382,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ContentResponse"
+                  "$ref": "#/components/schemas/HomepageResponse"
                 }
               }
             }
@@ -6172,27 +6439,16 @@
           }
         },
         "tags": [
-          "Content"
+          "Homepage"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "number"
-            }
-          }
-        ],
-        "operationId": "put/contents/{id}",
+        "parameters": [],
+        "operationId": "put/homepage",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContentRequest"
+                "$ref": "#/components/schemas/HomepageRequest"
               }
             }
           }
@@ -6263,21 +6519,91 @@
           }
         },
         "tags": [
-          "Content"
+          "Homepage"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "number"
+        "parameters": [],
+        "operationId": "delete/homepage"
+      }
+    },
+    "/homepage/localizations": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HomepageLocalizationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
             }
           }
+        },
+        "tags": [
+          "Homepage"
         ],
-        "operationId": "delete/contents/{id}"
+        "parameters": [],
+        "operationId": "post/homepage/localizations",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HomepageLocalizationRequest"
+              }
+            }
+          }
+        }
       }
     },
     "/posts": {

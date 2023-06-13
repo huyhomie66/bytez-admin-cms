@@ -1,7 +1,8 @@
 {
     "collectionName": "components_homepage_left_galleries",
     "info": {
-        "displayName": "Left-Gallery"
+        "displayName": "LeftGallery",
+        "description": ""
     },
     "options": {},
     "attributes": {

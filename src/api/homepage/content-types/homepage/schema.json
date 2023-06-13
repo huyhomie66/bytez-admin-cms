@@ -1,0 +1,100 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "simpleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.simple-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "firstProcessSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.process-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "secondProcessSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.process-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "thirdProcessSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.process-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "fourthProcessSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.process-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "galleryWithCenterTitleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.gallery-with-center-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formSubcribeSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.form-subcribe-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

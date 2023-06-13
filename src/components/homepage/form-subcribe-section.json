@@ -1,7 +1,8 @@
 {
   "collectionName": "components_homepage_form_subcribe_sections",
   "info": {
-    "displayName": "Form-Subcribe-Section"
+    "displayName": "FormSubcribeSection",
+    "description": ""
   },
   "options": {},
   "attributes": {

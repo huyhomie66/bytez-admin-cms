@@ -1,7 +1,8 @@
 {
     "collectionName": "components_homepage_process_sections",
     "info": {
-        "displayName": "Process-Section"
+        "displayName": "ProcessSection",
+        "description": ""
     },
     "options": {},
     "attributes": {
