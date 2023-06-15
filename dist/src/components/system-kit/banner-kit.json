@@ -1,10 +1,13 @@
 {
-    "collectionName": "components_how_it_works_parents_banners",
+    "collectionName": "components_system_kit_banner_kits",
     "info": {
-        "displayName": "banner"
+        "displayName": "Banner-kit"
     },
     "options": {},
     "attributes": {
+        "BackgroundImage": {
+            "type": "string"
+        },
         "title": {
             "type": "component",
             "repeatable": true,
@@ -15,8 +18,10 @@
             "repeatable": true,
             "component": "system-kit.text-kit"
         },
-        "backgroundImage": {
-            "type": "string"
+        "button": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.button-kit"
         }
     }
 }

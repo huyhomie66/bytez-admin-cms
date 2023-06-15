@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_homepage_gallery_with_center_titles",
+  "collectionName": "components_system_kit_gallery_with_center_title_kits",
   "info": {
-    "displayName": "GalleryWithCenterTitle",
+    "displayName": "GalleryWithCenterTitle-kit",
     "description": ""
   },
   "options": {},
@@ -16,16 +16,15 @@
       "repeatable": true,
       "component": "system-kit.text-kit"
     },
-    "LeftGallery": {
+    "leftGallery": {
       "type": "component",
       "repeatable": true,
       "component": "system-kit.left-gallery"
     },
-    "RightGallery": {
-      "displayName": "RightGallery",
+    "rightGallery": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.right-gallery"
+      "component": "system-kit.left-gallery"
     }
   }
 }

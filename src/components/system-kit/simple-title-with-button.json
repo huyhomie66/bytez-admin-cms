@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_homepage_form_subcribe_sections",
+  "collectionName": "components_system_kit_simple_title_with_buttons",
   "info": {
-    "displayName": "FormSubcribeSection",
-    "description": ""
+    "displayName": "SimpleTitleWithButton"
   },
   "options": {},
   "attributes": {

@@ -9,12 +9,12 @@
     "title": {
       "type": "component",
       "repeatable": true,
-      "component": "content.text-kit"
+      "component": "system-kit.text-kit"
     },
     "description": {
       "type": "component",
       "repeatable": true,
-      "component": "content.text-kit"
+      "component": "system-kit.text-kit"
     },
     "image": {
       "type": "string"

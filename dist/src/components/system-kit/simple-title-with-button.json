@@ -1,7 +1,7 @@
 {
-    "collectionName": "components_how_it_works_parents_banners",
+    "collectionName": "components_system_kit_simple_title_with_buttons",
     "info": {
-        "displayName": "banner"
+        "displayName": "SimpleTitleWithButton"
     },
     "options": {},
     "attributes": {
@@ -10,13 +10,10 @@
             "repeatable": true,
             "component": "system-kit.text-kit"
         },
-        "description": {
+        "button": {
             "type": "component",
             "repeatable": true,
-            "component": "system-kit.text-kit"
-        },
-        "backgroundImage": {
-            "type": "string"
+            "component": "system-kit.button-kit"
         }
     }
 }

@@ -8,7 +8,7 @@
         "text": {
             "type": "component",
             "repeatable": false,
-            "component": "content.text-kit"
+            "component": "system-kit.text-kit"
         }
     }
 }
