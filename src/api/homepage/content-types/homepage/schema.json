@@ -18,83 +18,83 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": false,
-      "component": "homepage.banner",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.banner-kit"
     },
     "simpleSection": {
       "type": "component",
-      "repeatable": false,
-      "component": "homepage.simple-section",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.simple-title-kit"
     },
     "firstProcessSection": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.process-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.image-with-description-kit"
     },
     "secondProcessSection": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.process-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.image-with-description-kit"
     },
     "thirdProcessSection": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.process-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.image-with-description-kit"
     },
     "fourthProcessSection": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.process-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.image-with-description-kit"
     },
     "galleryWithCenterTitleSection": {
       "type": "component",
-      "repeatable": false,
-      "component": "homepage.gallery-with-center-title",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.gallery-with-center-title-kit"
     },
     "formSubcribeSection": {
       "type": "component",
-      "repeatable": false,
-      "component": "homepage.form-subcribe-section",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "system-kit.simple-title-with-button"
     }
   }
 }

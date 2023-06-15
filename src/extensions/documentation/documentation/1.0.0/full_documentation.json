@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-14T16:11:59.347Z"
+    "x-generation-date": "2023-06-15T08:28:20.925Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2582,40 +2582,52 @@
         "type": "object",
         "properties": {
           "banner": {
-            "$ref": "#/components/schemas/HomepageBannerComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitBannerKitComponent"
+            }
           },
           "simpleSection": {
-            "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
+            }
           },
           "firstProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "secondProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "thirdProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "fourthProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "galleryWithCenterTitleSection": {
-            "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
+            }
           },
           "formSubcribeSection": {
-            "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+            }
           },
           "locale": {
             "type": "string"
@@ -2632,40 +2644,52 @@
             "type": "object",
             "properties": {
               "banner": {
-                "$ref": "#/components/schemas/HomepageBannerComponent"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitBannerKitComponent"
+                }
               },
               "simpleSection": {
-                "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
+                }
               },
               "firstProcessSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
               "secondProcessSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
               "thirdProcessSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
               "fourthProcessSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
               "galleryWithCenterTitleSection": {
-                "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
+                }
               },
               "formSubcribeSection": {
-                "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+                }
               },
               "locale": {
                 "type": "string"
@@ -2792,40 +2816,52 @@
         "type": "object",
         "properties": {
           "banner": {
-            "$ref": "#/components/schemas/HomepageBannerComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitBannerKitComponent"
+            }
           },
           "simpleSection": {
-            "$ref": "#/components/schemas/HomepageSimpleSectionComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
+            }
           },
           "firstProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "secondProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "thirdProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "fourthProcessSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HomepageProcessSectionComponent"
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
           "galleryWithCenterTitleSection": {
-            "$ref": "#/components/schemas/HomepageGalleryWithCenterTitleComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
+            }
           },
           "formSubcribeSection": {
-            "$ref": "#/components/schemas/HomepageFormSubcribeSectionComponent"
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+            }
           },
           "createdAt": {
             "type": "string",
@@ -3162,13 +3198,13 @@
           }
         }
       },
-      "HomepageBannerComponent": {
+      "SystemKitBannerKitComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
-          "backgroundImage": {
+          "BackgroundImage": {
             "type": "string"
           },
           "title": {
@@ -3224,13 +3260,13 @@
           }
         }
       },
-      "HomepageSimpleSectionComponent": {
+      "SystemKitSimpleTitleKitComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
-          "description": {
+          "title": {
             "type": "array",
             "items": {
               "type": "object",
@@ -3249,11 +3285,14 @@
           }
         }
       },
-      "HomepageProcessSectionComponent": {
+      "SystemKitImageWithDescriptionKitComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
+          },
+          "image": {
+            "type": "string"
           },
           "title": {
             "type": "array",
@@ -3288,13 +3327,10 @@
                 }
               }
             }
-          },
-          "image": {
-            "type": "string"
           }
         }
       },
-      "HomepageGalleryWithCenterTitleComponent": {
+      "SystemKitGalleryWithCenterTitleKitComponent": {
         "type": "object",
         "properties": {
           "id": {
@@ -3334,7 +3370,7 @@
               }
             }
           },
-          "LeftGallery": {
+          "leftGallery": {
             "type": "array",
             "items": {
               "type": "object",
@@ -3354,7 +3390,7 @@
               }
             }
           },
-          "RightGallery": {
+          "rightGallery": {
             "type": "array",
             "items": {
               "type": "object",
@@ -3376,7 +3412,7 @@
           }
         }
       },
-      "HomepageFormSubcribeSectionComponent": {
+      "SystemKitSimpleTitleWithButtonComponent": {
         "type": "object",
         "properties": {
           "id": {
