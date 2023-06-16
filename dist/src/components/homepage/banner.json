@@ -1,14 +1,16 @@
 {
-    "collectionName": "components_system_kit_banner_kits",
+    "collectionName": "components_homepage_banners",
     "info": {
-        "displayName": "Banner-kit"
+        "displayName": "banner",
+        "description": ""
     },
     "options": {},
     "attributes": {
-        "BackgroundImage": {
+        "backgroundImage": {
             "type": "string"
         },
         "title": {
+            "displayName": "text-kit",
             "type": "component",
             "repeatable": true,
             "component": "system-kit.text-kit"
@@ -19,6 +21,7 @@
             "component": "system-kit.text-kit"
         },
         "button": {
+            "displayName": "Button-kit",
             "type": "component",
             "repeatable": true,
             "component": "system-kit.button-kit"
