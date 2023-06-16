@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-16T20:43:35.642Z"
+    "x-generation-date": "2023-06-16T21:27:04.102Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -824,6 +824,12 @@
                                                         }
                                                       }
                                                     }
+                                                  },
+                                                  "topic": {
+                                                    "type": "string"
+                                                  },
+                                                  "image": {
+                                                    "type": "string"
                                                   },
                                                   "createdAt": {
                                                     "type": "string",
@@ -1943,6 +1949,12 @@
                                           }
                                         }
                                       }
+                                    },
+                                    "topic": {
+                                      "type": "string"
+                                    },
+                                    "image": {
+                                      "type": "string"
                                     },
                                     "createdAt": {
                                       "type": "string",
@@ -3510,6 +3522,12 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "topic": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
               }
             }
           }
@@ -4293,6 +4311,12 @@
                                         }
                                       }
                                     },
+                                    "topic": {
+                                      "type": "string"
+                                    },
+                                    "image": {
+                                      "type": "string"
+                                    },
                                     "createdAt": {
                                       "type": "string",
                                       "format": "date-time"
@@ -4449,6 +4473,12 @@
                 }
               }
             }
+          },
+          "topic": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",

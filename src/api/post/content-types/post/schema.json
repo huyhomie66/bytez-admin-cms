@@ -36,6 +36,12 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
