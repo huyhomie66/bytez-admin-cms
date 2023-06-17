@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_system_kit_team_blocks",
+    "info": {
+        "displayName": "TeamBlock"
+    },
+    "options": {},
+    "attributes": {
+        "firstMember": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.member-block"
+        },
+        "secondMember": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.member-block"
+        },
+        "thirdMember": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.member-block"
+        },
+        "fourthMember": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.member-block"
+        },
+        "fifthMember": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.member-block"
+        }
+    }
+}

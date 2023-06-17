@@ -41,6 +41,11 @@
       "type": "component",
       "repeatable": true,
       "component": "system-kit.simple-title-with-sub-tit"
+    },
+    "contactSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.simple-title-with-sub-tit-button"
     }
   }
 }
