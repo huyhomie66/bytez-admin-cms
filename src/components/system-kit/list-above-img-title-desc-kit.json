@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_system_kit_list_above_img_title_desc_kits",
+  "info": {
+    "displayName": "ListAboveImgTitleDesc-kit"
+  },
+  "options": {},
+  "attributes": {
+    "leftBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.above-img-with-title-desc-below-kit"
+    },
+    "midBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.above-img-with-title-desc-below-kit"
+    },
+    "rightBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.above-img-with-title-desc-below-kit"
+    }
+  }
+}

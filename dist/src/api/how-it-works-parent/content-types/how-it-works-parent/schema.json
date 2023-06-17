@@ -1,0 +1,46 @@
+{
+    "kind": "singleType",
+    "collectionName": "how_it_works_parents",
+    "info": {
+        "singularName": "how-it-works-parent",
+        "pluralName": "how-it-works-parents",
+        "displayName": "HowItWorksParent",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "banner": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.banner-without-button-kit"
+        },
+        "theProductSection": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.image-with-description-kit"
+        },
+        "simpleTitleSection": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.simple-title-kit"
+        },
+        "listTitleAndDescription": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.list-above-img-title-desc-kit"
+        },
+        "keyHighlightSection": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.image-with-list-desc"
+        },
+        "simpleTitleWithSubSection": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.simple-title-with-sub-tit"
+        }
+    }
+}

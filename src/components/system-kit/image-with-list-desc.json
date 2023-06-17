@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_system_kit_image_with_list_descs",
+  "info": {
+    "displayName": "ImageWithListDesc"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.text-kit"
+    },
+    "firstDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.text-kit"
+    },
+    "secondDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.text-kit"
+    },
+    "thirdDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.text-kit"
+    }
+  }
+}

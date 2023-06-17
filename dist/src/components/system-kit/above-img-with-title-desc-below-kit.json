@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_system_kit_abv_img_title_desc_below_kits",
+    "info": {
+        "displayName": "AboveImgWithTitleDescBelow-kit",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    }
+}
