@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-16T21:27:04.102Z"
+    "x-generation-date": "2023-06-17T07:32:29.049Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -682,6 +682,12 @@
                                                   "content": {
                                                     "type": "string"
                                                   },
+                                                  "topic": {
+                                                    "type": "string"
+                                                  },
+                                                  "image": {
+                                                    "type": "string"
+                                                  },
                                                   "author": {
                                                     "type": "object",
                                                     "properties": {
@@ -824,12 +830,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "topic": {
-                                                    "type": "string"
-                                                  },
-                                                  "image": {
-                                                    "type": "string"
                                                   },
                                                   "createdAt": {
                                                     "type": "string",
@@ -1707,6 +1707,12 @@
                                     "content": {
                                       "type": "string"
                                     },
+                                    "topic": {
+                                      "type": "string"
+                                    },
+                                    "image": {
+                                      "type": "string"
+                                    },
                                     "author": {
                                       "type": "object",
                                       "properties": {
@@ -1949,12 +1955,6 @@
                                           }
                                         }
                                       }
-                                    },
-                                    "topic": {
-                                      "type": "string"
-                                    },
-                                    "image": {
-                                      "type": "string"
                                     },
                                     "createdAt": {
                                       "type": "string",
@@ -3484,6 +3484,12 @@
               "content": {
                 "type": "string"
               },
+              "topic": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
               "author": {
                 "oneOf": [
                   {
@@ -3522,12 +3528,6 @@
                   ],
                   "example": "string or id"
                 }
-              },
-              "topic": {
-                "type": "string"
-              },
-              "image": {
-                "type": "string"
               }
             }
           }
@@ -3589,6 +3589,12 @@
             "type": "string"
           },
           "content": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "image": {
             "type": "string"
           },
           "author": {
@@ -4068,6 +4074,12 @@
                                     "content": {
                                       "type": "string"
                                     },
+                                    "topic": {
+                                      "type": "string"
+                                    },
+                                    "image": {
+                                      "type": "string"
+                                    },
                                     "author": {
                                       "type": "object",
                                       "properties": {
@@ -4311,12 +4323,6 @@
                                         }
                                       }
                                     },
-                                    "topic": {
-                                      "type": "string"
-                                    },
-                                    "image": {
-                                      "type": "string"
-                                    },
                                     "createdAt": {
                                       "type": "string",
                                       "format": "date-time"
@@ -4473,12 +4479,6 @@
                 }
               }
             }
-          },
-          "topic": {
-            "type": "string"
-          },
-          "image": {
-            "type": "string"
           },
           "createdAt": {
             "type": "string",

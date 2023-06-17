@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-06-16T21:08:37.848Z"
+        "x-generation-date": "2023-06-17T06:43:15.195Z"
     },
     "x-strapi-config": {
         "path": "/documentation",
@@ -680,6 +680,12 @@
                                                                                                         "type": "string"
                                                                                                     },
                                                                                                     "content": {
+                                                                                                        "type": "string"
+                                                                                                    },
+                                                                                                    "topic": {
+                                                                                                        "type": "string"
+                                                                                                    },
+                                                                                                    "image": {
                                                                                                         "type": "string"
                                                                                                     },
                                                                                                     "author": {
@@ -1699,6 +1705,12 @@
                                                                             "type": "string"
                                                                         },
                                                                         "content": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "topic": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "image": {
                                                                             "type": "string"
                                                                         },
                                                                         "author": {
@@ -3472,6 +3484,12 @@
                             "content": {
                                 "type": "string"
                             },
+                            "topic": {
+                                "type": "string"
+                            },
+                            "image": {
+                                "type": "string"
+                            },
                             "author": {
                                 "oneOf": [
                                     {
@@ -3571,6 +3589,12 @@
                         "type": "string"
                     },
                     "content": {
+                        "type": "string"
+                    },
+                    "topic": {
+                        "type": "string"
+                    },
+                    "image": {
                         "type": "string"
                     },
                     "author": {
@@ -4048,6 +4072,12 @@
                                                                             "type": "string"
                                                                         },
                                                                         "content": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "topic": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "image": {
                                                                             "type": "string"
                                                                         },
                                                                         "author": {
