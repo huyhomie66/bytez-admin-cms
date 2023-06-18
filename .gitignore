@@ -117,4 +117,4 @@ exports
 yarn.lock
 nginx.conf
 
-dist/build/*
+dist

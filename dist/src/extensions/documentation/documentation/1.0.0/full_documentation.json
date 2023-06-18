@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-06-18T13:06:54.557Z"
+        "x-generation-date": "2023-06-18T15:41:43.478Z"
     },
     "x-strapi-config": {
         "path": "/documentation",
@@ -2149,9 +2149,6 @@
                                                                                                             }
                                                                                                         }
                                                                                                     },
-                                                                                                    "seoTag": {
-                                                                                                        "type": "string"
-                                                                                                    },
                                                                                                     "createdAt": {
                                                                                                         "type": "string",
                                                                                                         "format": "date-time"
@@ -3291,9 +3288,6 @@
                                                                                     }
                                                                                 }
                                                                             }
-                                                                        },
-                                                                        "seoTag": {
-                                                                            "type": "string"
                                                                         },
                                                                         "createdAt": {
                                                                             "type": "string",
@@ -6312,9 +6306,6 @@
                             "example": "string or id"
                         }
                     },
-                    "seoTag": {
-                        "type": "string"
-                    },
                     "locale": {
                         "type": "string"
                     }
@@ -6382,9 +6373,6 @@
                                     ],
                                     "example": "string or id"
                                 }
-                            },
-                            "seoTag": {
-                                "type": "string"
                             },
                             "locale": {
                                 "type": "string"
@@ -7251,9 +7239,6 @@
                                                                                 }
                                                                             }
                                                                         },
-                                                                        "seoTag": {
-                                                                            "type": "string"
-                                                                        },
                                                                         "createdAt": {
                                                                             "type": "string",
                                                                             "format": "date-time"
@@ -7425,9 +7410,6 @@
                                 }
                             }
                         }
-                    },
-                    "seoTag": {
-                        "type": "string"
                     },
                     "createdAt": {
                         "type": "string",
