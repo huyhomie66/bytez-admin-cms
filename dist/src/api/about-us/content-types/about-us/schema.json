@@ -38,9 +38,9 @@
             "component": "system-kit.image-with-description-kit"
         },
         "meta": {
-            "type": "relation",
-            "relation": "oneToOne",
-            "target": "api::meta.meta"
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.seo-tag"
         }
     }
 }
