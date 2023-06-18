@@ -4,7 +4,8 @@
   "info": {
     "singularName": "how-it-works-clinic",
     "pluralName": "how-it-works-clinics",
-    "displayName": "HowItWorksClinic"
+    "displayName": "HowItWorksClinic",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,11 @@
       "type": "component",
       "repeatable": true,
       "component": "system-kit.banner-without-button-kit"
+    },
+    "meta": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meta.meta"
     }
   }
 }

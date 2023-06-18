@@ -18,7 +18,7 @@
   "attributes": {
     "banner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -28,7 +28,7 @@
     },
     "simpleSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -95,6 +95,11 @@
         }
       },
       "component": "system-kit.simple-title-with-button"
+    },
+    "meta": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meta.meta"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "system-kit.banner-kit"
+    },
+    "meta": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meta.meta"
     }
   }
 }
