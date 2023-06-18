@@ -16,6 +16,31 @@
       "type": "component",
       "repeatable": true,
       "component": "system-kit.banner-without-button-kit"
+    },
+    "imagewithDescSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.image-with-description-kit"
+    },
+    "simpleTitleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.simple-title-kit"
+    },
+    "listAboveImgWithTitleDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.list-above-img-title-desc-kit"
+    },
+    "benefitSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.list-above-img-title-desc-kit"
+    },
+    "keyHightlighSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.image-with-description-kit"
     }
   }
 }
