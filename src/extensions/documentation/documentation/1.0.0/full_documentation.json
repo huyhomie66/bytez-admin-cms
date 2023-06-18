@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-17T10:43:06.479Z"
+    "x-generation-date": "2023-06-18T08:09:35.352Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1938,6 +1938,9 @@
                                                       }
                                                     }
                                                   },
+                                                  "seoTag": {
+                                                    "type": "string"
+                                                  },
                                                   "createdAt": {
                                                     "type": "string",
                                                     "format": "date-time"
@@ -3065,6 +3068,9 @@
                                           }
                                         }
                                       }
+                                    },
+                                    "seoTag": {
+                                      "type": "string"
                                     },
                                     "createdAt": {
                                       "type": "string",
@@ -5644,6 +5650,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "seoTag": {
+                "type": "string"
               }
             }
           }
@@ -6439,6 +6448,9 @@
                                         }
                                       }
                                     },
+                                    "seoTag": {
+                                      "type": "string"
+                                    },
                                     "createdAt": {
                                       "type": "string",
                                       "format": "date-time"
@@ -6598,6 +6610,9 @@
                 }
               }
             }
+          },
+          "seoTag": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
