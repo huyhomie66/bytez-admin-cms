@@ -1,7 +1,8 @@
 {
     "collectionName": "components_system_kit_banner_without_button_kits",
     "info": {
-        "displayName": "BannerWithoutButton-kit"
+        "displayName": "BannerWithoutButton-kit",
+        "description": ""
     },
     "options": {},
     "attributes": {
@@ -9,14 +10,10 @@
             "type": "string"
         },
         "title": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.text-kit"
+            "type": "string"
         },
         "description": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.text-kit"
+            "type": "richtext"
         }
     }
 }

@@ -7,24 +7,31 @@
   "options": {},
   "attributes": {
     "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     },
-    "subDescription": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+    "authorName": {
+      "type": "string"
     },
-    "leftGallery": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.left-gallery"
+    "authorTitle": {
+      "type": "string"
     },
-    "rightGallery": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.left-gallery"
+    "imageTopLeft": {
+      "type": "string"
+    },
+    "imageMidLeft": {
+      "type": "string"
+    },
+    "imageBotLeft": {
+      "type": "string"
+    },
+    "imageTopRight": {
+      "type": "string"
+    },
+    "imageMidRight": {
+      "type": "string"
+    },
+    "imageBotRight": {
+      "type": "string"
     }
   }
 }

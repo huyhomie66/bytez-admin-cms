@@ -10,37 +10,81 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "banner": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.banner-without-button-kit"
+      "component": "system-kit.banner-without-button-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "imagewithDescSection": {
       "type": "component",
       "repeatable": false,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "simpleTitleSection": {
       "type": "component",
       "repeatable": false,
-      "component": "system-kit.simple-title-kit"
+      "component": "system-kit.simple-title-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "listAboveImgWithTitleDesc": {
+    "simpleToSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.list-above-img-title-desc-kit"
+      "component": "system-kit.above-img-with-title-desc-below-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "benefitSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.list-above-img-title-desc-kit"
+      "component": "system-kit.above-img-with-title-desc-below-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "keyHightlighSection": {
       "type": "component",
       "repeatable": false,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.seo-tag",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

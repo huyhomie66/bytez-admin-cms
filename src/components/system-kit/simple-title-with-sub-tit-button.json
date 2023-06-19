@@ -1,24 +1,22 @@
 {
   "collectionName": "components_system_kit_simp_tit_with_sub_tit_buttons",
   "info": {
-    "displayName": "SimpleTitleWithSubTitButton"
+    "displayName": "SimpleTitleWithSubTitButton",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     },
     "subTitle": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     },
-    "button": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.button-kit"
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
     }
   }
 }

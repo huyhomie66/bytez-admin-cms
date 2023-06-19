@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-18T15:42:28.860Z"
+    "x-generation-date": "2023-06-19T19:30:57.958Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -86,6 +86,53 @@
           }
         }
       },
+      "AboutUsLocalizationRequest": {
+        "required": [
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "banner": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
+            }
+          },
+          "theTeamMemberSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitMemberBlockComponent"
+            }
+          },
+          "feedbackSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+            }
+          },
+          "awardsLeftSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
+            }
+          },
+          "awardsRightSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitImageKitComponent"
+            }
+          },
+          "meta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+            }
+          },
+          "locale": {
+            "type": "string"
+          }
+        }
+      },
       "AboutUsRequest": {
         "type": "object",
         "required": [
@@ -101,28 +148,28 @@
                   "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
                 }
               },
-              "theTeamSection": {
+              "theTeamMemberSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitTeamBlockComponent"
+                  "$ref": "#/components/schemas/SystemKitMemberBlockComponent"
                 }
               },
-              "firstFeedbackSection": {
+              "feedbackSection": {
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
-              "secondFeedbackSection": {
+              "awardsLeftSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+                  "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
                 }
               },
-              "thirdFeedbackSection": {
+              "awardsRightSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+                  "$ref": "#/components/schemas/SystemKitImageKitComponent"
                 }
               },
               "meta": {
@@ -131,10 +178,75 @@
                   "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                 }
               },
-              "awardsSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
+              "locale": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "AboutUsResponseDataObjectLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/AboutUs"
+          }
+        }
+      },
+      "AboutUsLocalizationResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/AboutUsResponseDataObjectLocalized"
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      },
+      "AboutUsListResponseDataItemLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/AboutUs"
+          }
+        }
+      },
+      "AboutUsLocalizationListResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AboutUsListResponseDataItemLocalized"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer",
+                    "minimum": 25
+                  },
+                  "pageCount": {
+                    "type": "integer",
+                    "maximum": 1
+                  },
+                  "total": {
+                    "type": "integer"
+                  }
                 }
               }
             }
@@ -196,40 +308,34 @@
               "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
             }
           },
-          "theTeamSection": {
+          "theTeamMemberSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitTeamBlockComponent"
+              "$ref": "#/components/schemas/SystemKitMemberBlockComponent"
             }
           },
-          "firstFeedbackSection": {
+          "feedbackSection": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "secondFeedbackSection": {
+          "awardsLeftSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+              "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
             }
           },
-          "thirdFeedbackSection": {
+          "awardsRightSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+              "$ref": "#/components/schemas/SystemKitImageKitComponent"
             }
           },
           "meta": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitSeoTagComponent"
-            }
-          },
-          "awardsSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
             }
           },
           "createdAt": {
@@ -528,6 +634,20 @@
                 }
               }
             }
+          },
+          "localizations": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AboutUs"
+                }
+              }
+            }
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -563,161 +683,30 @@
             "type": "string"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "description": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           }
         }
       },
-      "SystemKitTeamBlockComponent": {
+      "SystemKitMemberBlockComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
-          "firstMember": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "memberName": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
+          "image": {
+            "type": "string"
           },
-          "secondMember": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "memberName": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
+          "memberName": {
+            "type": "string"
           },
-          "thirdMember": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "memberName": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
+          "title": {
+            "type": "string"
           },
-          "fourthMember": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "memberName": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "fifthMember": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "memberName": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
-            }
+          "description": {
+            "type": "string"
           }
         }
       },
@@ -731,38 +720,35 @@
             "type": "string"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "description": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
+          }
+        }
+      },
+      "SystemKitContentWithManyImagesComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "SystemKitImageKitComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "imageUrl": {
+            "type": "string"
           }
         }
       },
@@ -783,56 +769,6 @@
           },
           "type": {
             "type": "string"
-          }
-        }
-      },
-      "SystemKitContentWithManyImagesComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "title": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "color": {
-                "type": "string"
-              },
-              "text": {
-                "type": "string"
-              }
-            }
-          },
-          "description": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "color": {
-                "type": "string"
-              },
-              "text": {
-                "type": "string"
-              }
-            }
-          },
-          "image": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "imageUrl": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       },
@@ -1352,55 +1288,16 @@
             "type": "string"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "description": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
-          "button": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "link": {
-                  "type": "string"
-                }
-              }
-            }
+          "buttonTitle": {
+            "type": "string"
+          },
+          "buttonLink": {
+            "type": "string"
           }
         }
       },
@@ -3947,29 +3844,14 @@
           "simpleSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
           },
-          "firstProcessSection": {
+          "processSection": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "secondProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
-          },
-          "thirdProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
-          },
-          "fourthProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
+          "benefitSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "galleryWithCenterTitleSection": {
             "type": "array",
@@ -3978,16 +3860,10 @@
             }
           },
           "formSubcribeSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
           },
           "meta": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSeoTagComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
           },
           "locale": {
             "type": "string"
@@ -4009,29 +3885,14 @@
               "simpleSection": {
                 "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
               },
-              "firstProcessSection": {
+              "processSection": {
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
-              "secondProcessSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                }
-              },
-              "thirdProcessSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                }
-              },
-              "fourthProcessSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                }
+              "benefitSection": {
+                "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
               },
               "galleryWithCenterTitleSection": {
                 "type": "array",
@@ -4040,16 +3901,10 @@
                 }
               },
               "formSubcribeSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
               },
               "meta": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitSeoTagComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitSeoTagComponent"
               },
               "locale": {
                 "type": "string"
@@ -4181,29 +4036,14 @@
           "simpleSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
           },
-          "firstProcessSection": {
+          "processSection": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "secondProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
-          },
-          "thirdProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
-          },
-          "fourthProcessSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
+          "benefitSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "galleryWithCenterTitleSection": {
             "type": "array",
@@ -4212,16 +4052,10 @@
             }
           },
           "formSubcribeSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
           },
           "meta": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSeoTagComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
           },
           "createdAt": {
             "type": "string",
@@ -4565,21 +4399,7 @@
             "type": "number"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           }
         }
       },
@@ -4590,78 +4410,31 @@
             "type": "number"
           },
           "description": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
-          "subDescription": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+          "authorName": {
+            "type": "string"
           },
-          "leftGallery": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "ImageTop": {
-                  "type": "string"
-                },
-                "ImageMid": {
-                  "type": "string"
-                },
-                "ImageBot": {
-                  "type": "string"
-                }
-              }
-            }
+          "authorTitle": {
+            "type": "string"
           },
-          "rightGallery": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "ImageTop": {
-                  "type": "string"
-                },
-                "ImageMid": {
-                  "type": "string"
-                },
-                "ImageBot": {
-                  "type": "string"
-                }
-              }
-            }
+          "imageTopLeft": {
+            "type": "string"
+          },
+          "imageMidLeft": {
+            "type": "string"
+          },
+          "imageBotLeft": {
+            "type": "string"
+          },
+          "imageTopRight": {
+            "type": "string"
+          },
+          "imageMidRight": {
+            "type": "string"
+          },
+          "imageBotRight": {
+            "type": "string"
           }
         }
       },
@@ -4672,38 +4445,54 @@
             "type": "number"
           },
           "title": {
+            "type": "string"
+          },
+          "buttonTitle": {
+            "type": "string"
+          },
+          "buttonLink": {
+            "type": "string"
+          }
+        }
+      },
+      "HowItWorksClinicLocalizationRequest": {
+        "required": [
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "banner": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
             }
           },
-          "button": {
+          "imagewithDescSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+          },
+          "simpleTitleSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
+          },
+          "simpleToSection": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "link": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
+          },
+          "benefitSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
+            }
+          },
+          "keyHightlighSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+          },
+          "meta": {
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -4728,20 +4517,94 @@
               "simpleTitleSection": {
                 "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
               },
-              "listAboveImgWithTitleDesc": {
+              "simpleToSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+                  "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
                 }
               },
               "benefitSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+                  "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
                 }
               },
               "keyHightlighSection": {
                 "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+              },
+              "meta": {
+                "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+              },
+              "locale": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "HowItWorksClinicResponseDataObjectLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/HowItWorksClinic"
+          }
+        }
+      },
+      "HowItWorksClinicLocalizationResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/HowItWorksClinicResponseDataObjectLocalized"
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      },
+      "HowItWorksClinicListResponseDataItemLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/HowItWorksClinic"
+          }
+        }
+      },
+      "HowItWorksClinicLocalizationListResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HowItWorksClinicListResponseDataItemLocalized"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer",
+                    "minimum": 25
+                  },
+                  "pageCount": {
+                    "type": "integer",
+                    "maximum": 1
+                  },
+                  "total": {
+                    "type": "integer"
+                  }
+                }
               }
             }
           }
@@ -4808,20 +4671,23 @@
           "simpleTitleSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
           },
-          "listAboveImgWithTitleDesc": {
+          "simpleToSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
           },
           "benefitSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
           },
           "keyHightlighSection": {
             "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
+          },
+          "meta": {
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
           },
           "createdAt": {
             "type": "string",
@@ -5119,6 +4985,20 @@
                 }
               }
             }
+          },
+          "localizations": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HowItWorksClinic"
+                }
+              }
+            }
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -5144,71 +5024,76 @@
           }
         }
       },
-      "SystemKitListAboveImgTitleDescKitComponent": {
+      "SystemKitAboveImgWithTitleDescBelowKitComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
-          "leftBlock": {
+          "image": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "HowItWorksParentLocalizationRequest": {
+        "required": [
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "banner": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
             }
           },
-          "midBlock": {
+          "theProductSection": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "rightBlock": {
+          "simpleTitleSection": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
             }
+          },
+          "listTitleSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
+            }
+          },
+          "keyHighlightSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitImageWithListDescComponent"
+            }
+          },
+          "simpleTitleWithSubSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
+            }
+          },
+          "contactSection": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
+            }
+          },
+          "meta": {
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -5239,10 +5124,10 @@
                   "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
                 }
               },
-              "listTitleAndDescription": {
+              "listTitleSection": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+                  "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
                 }
               },
               "keyHighlightSection": {
@@ -5261,6 +5146,80 @@
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
+                }
+              },
+              "meta": {
+                "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+              },
+              "locale": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "HowItWorksParentResponseDataObjectLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/HowItWorksParent"
+          }
+        }
+      },
+      "HowItWorksParentLocalizationResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/HowItWorksParentResponseDataObjectLocalized"
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      },
+      "HowItWorksParentListResponseDataItemLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/HowItWorksParent"
+          }
+        }
+      },
+      "HowItWorksParentLocalizationListResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HowItWorksParentListResponseDataItemLocalized"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer",
+                    "minimum": 25
+                  },
+                  "pageCount": {
+                    "type": "integer",
+                    "maximum": 1
+                  },
+                  "total": {
+                    "type": "integer"
+                  }
                 }
               }
             }
@@ -5334,10 +5293,10 @@
               "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
             }
           },
-          "listTitleAndDescription": {
+          "listTitleSection": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SystemKitListAboveImgTitleDescKitComponent"
+              "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
           },
           "keyHighlightSection": {
@@ -5357,6 +5316,9 @@
             "items": {
               "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
             }
+          },
+          "meta": {
+            "$ref": "#/components/schemas/SystemKitSeoTagComponent"
           },
           "createdAt": {
             "type": "string",
@@ -5654,6 +5616,20 @@
                 }
               }
             }
+          },
+          "localizations": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HowItWorksParent"
+                }
+              }
+            }
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -5689,72 +5665,16 @@
             "type": "string"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "firstDesc": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "secondDesc": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "thirdDesc": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           }
         }
       },
@@ -5765,38 +5685,10 @@
             "type": "number"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "subTitle": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           }
         }
       },
@@ -5807,55 +5699,36 @@
             "type": "number"
           },
           "title": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
-            }
+            "type": "string"
           },
           "subTitle": {
+            "type": "string"
+          },
+          "buttonTitle": {
+            "type": "string"
+          },
+          "buttonLink": {
+            "type": "string"
+          }
+        }
+      },
+      "InvestorLocalizationRequest": {
+        "required": [
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "banner": {
+            "$ref": "#/components/schemas/SystemKitBannerKitComponent"
+          },
+          "meta": {
             "type": "array",
             "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "color": {
-                  "type": "string"
-                },
-                "text": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/components/schemas/SystemKitSeoTagComponent"
             }
           },
-          "button": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "link": {
-                  "type": "string"
-                }
-              }
-            }
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -5870,6 +5743,83 @@
             "properties": {
               "banner": {
                 "$ref": "#/components/schemas/SystemKitBannerKitComponent"
+              },
+              "meta": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+                }
+              },
+              "locale": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "InvestorResponseDataObjectLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/Investor"
+          }
+        }
+      },
+      "InvestorLocalizationResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/InvestorResponseDataObjectLocalized"
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      },
+      "InvestorListResponseDataItemLocalized": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/Investor"
+          }
+        }
+      },
+      "InvestorLocalizationListResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InvestorListResponseDataItemLocalized"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer",
+                    "minimum": 25
+                  },
+                  "pageCount": {
+                    "type": "integer",
+                    "maximum": 1
+                  },
+                  "total": {
+                    "type": "integer"
+                  }
+                }
               }
             }
           }
@@ -5927,6 +5877,12 @@
           "banner": {
             "$ref": "#/components/schemas/SystemKitBannerKitComponent"
           },
+          "meta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+            }
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -6223,6 +6179,20 @@
                 }
               }
             }
+          },
+          "localizations": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Investor"
+                }
+              }
+            }
+          },
+          "locale": {
+            "type": "string"
           }
         }
       },
@@ -8019,6 +7989,87 @@
         ],
         "parameters": [],
         "operationId": "delete/about-us"
+      }
+    },
+    "/about-us/localizations": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AboutUsLocalizationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "About-us"
+        ],
+        "parameters": [],
+        "operationId": "post/about-us/localizations",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AboutUsLocalizationRequest"
+              }
+            }
+          }
+        }
       }
     },
     "/blog": {
@@ -10664,6 +10715,87 @@
         "operationId": "delete/how-it-works-clinic"
       }
     },
+    "/how-it-works-clinic/localizations": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HowItWorksClinicLocalizationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "How-it-works-clinic"
+        ],
+        "parameters": [],
+        "operationId": "post/how-it-works-clinic/localizations",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HowItWorksClinicLocalizationRequest"
+              }
+            }
+          }
+        }
+      }
+    },
     "/how-it-works-parent": {
       "get": {
         "responses": {
@@ -10986,6 +11118,87 @@
         "operationId": "delete/how-it-works-parent"
       }
     },
+    "/how-it-works-parent/localizations": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HowItWorksParentLocalizationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "How-it-works-parent"
+        ],
+        "parameters": [],
+        "operationId": "post/how-it-works-parent/localizations",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HowItWorksParentLocalizationRequest"
+              }
+            }
+          }
+        }
+      }
+    },
     "/investor": {
       "get": {
         "responses": {
@@ -11306,6 +11519,87 @@
         ],
         "parameters": [],
         "operationId": "delete/investor"
+      }
+    },
+    "/investor/localizations": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvestorLocalizationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "Investor"
+        ],
+        "parameters": [],
+        "operationId": "post/investor/localizations",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvestorLocalizationRequest"
+              }
+            }
+          }
+        }
       }
     },
     "/posts": {

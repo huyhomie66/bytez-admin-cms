@@ -10,42 +10,71 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "banner": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.banner-without-button-kit"
+      "component": "system-kit.banner-without-button-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "theTeamSection": {
+    "theTeamMemberSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.team-block"
+      "component": "system-kit.member-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "firstFeedbackSection": {
+    "feedbackSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "secondFeedbackSection": {
+    "awardsLeftSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.content-with-many-images",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "thirdFeedbackSection": {
+    "awardsRightSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.image-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "meta": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.seo-tag"
-    },
-    "awardsSection": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.content-with-many-images"
+      "component": "system-kit.seo-tag",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

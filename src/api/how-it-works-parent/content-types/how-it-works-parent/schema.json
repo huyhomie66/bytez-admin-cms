@@ -10,42 +10,91 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "banner": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.banner-without-button-kit"
+      "component": "system-kit.banner-without-button-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "theProductSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.image-with-description-kit"
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "simpleTitleSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.simple-title-kit"
+      "component": "system-kit.simple-title-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "listTitleAndDescription": {
+    "listTitleSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.list-above-img-title-desc-kit"
+      "component": "system-kit.above-img-with-title-desc-below-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "keyHighlightSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.image-with-list-desc"
+      "component": "system-kit.image-with-list-desc",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "simpleTitleWithSubSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.simple-title-with-sub-tit"
+      "component": "system-kit.simple-title-with-sub-tit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "contactSection": {
       "type": "component",
       "repeatable": true,
-      "component": "system-kit.simple-title-with-sub-tit-button"
+      "component": "system-kit.simple-title-with-sub-tit-button",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.seo-tag",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

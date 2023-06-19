@@ -1,19 +1,16 @@
 {
   "collectionName": "components_system_kit_simple_title_with_sub_tits",
   "info": {
-    "displayName": "SimpleTitleWithSubTit"
+    "displayName": "SimpleTitleWithSubTit",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     },
     "subTitle": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     }
   }
 }

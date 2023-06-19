@@ -1,7 +1,8 @@
 {
     "collectionName": "components_system_kit_banner_kits",
     "info": {
-        "displayName": "Banner-kit"
+        "displayName": "Banner-kit",
+        "description": ""
     },
     "options": {},
     "attributes": {
@@ -9,19 +10,16 @@
             "type": "string"
         },
         "title": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.text-kit"
+            "type": "string"
         },
         "description": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.text-kit"
+            "type": "richtext"
         },
-        "button": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.button-kit"
+        "buttonTitle": {
+            "type": "string"
+        },
+        "buttonLink": {
+            "type": "string"
         }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_system_kit_images",
+  "info": {
+    "displayName": "Images"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -36,7 +36,7 @@
             },
             "component": "system-kit.simple-title-kit"
         },
-        "firstProcessSection": {
+        "processSection": {
             "type": "component",
             "repeatable": true,
             "pluginOptions": {
@@ -46,29 +46,9 @@
             },
             "component": "system-kit.image-with-description-kit"
         },
-        "secondProcessSection": {
+        "benefitSection": {
             "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                }
-            },
-            "component": "system-kit.image-with-description-kit"
-        },
-        "thirdProcessSection": {
-            "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                }
-            },
-            "component": "system-kit.image-with-description-kit"
-        },
-        "fourthProcessSection": {
-            "type": "component",
-            "repeatable": true,
+            "repeatable": false,
             "pluginOptions": {
                 "i18n": {
                     "localized": true
@@ -88,7 +68,7 @@
         },
         "formSubcribeSection": {
             "type": "component",
-            "repeatable": true,
+            "repeatable": false,
             "pluginOptions": {
                 "i18n": {
                     "localized": true
@@ -98,7 +78,7 @@
         },
         "meta": {
             "type": "component",
-            "repeatable": true,
+            "repeatable": false,
             "pluginOptions": {
                 "i18n": {
                     "localized": true

@@ -1,19 +1,19 @@
 {
   "collectionName": "components_system_kit_simple_title_with_buttons",
   "info": {
-    "displayName": "SimpleTitleWithButton"
+    "displayName": "SimpleTitleWithButton",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.text-kit"
+      "type": "string"
     },
-    "button": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.button-kit"
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
     }
   }
 }
