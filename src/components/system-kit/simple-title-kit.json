@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_system_kit_simple_title_kits",
+  "info": {
+    "displayName": "SimpleTitle-kit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

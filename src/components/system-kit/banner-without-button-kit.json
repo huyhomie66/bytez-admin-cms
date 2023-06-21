@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_system_kit_banner_without_button_kits",
+  "info": {
+    "displayName": "BannerWithoutButton-kit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

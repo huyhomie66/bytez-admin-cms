@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_system_kit_simple_title_with_sub_tits",
+  "info": {
+    "displayName": "SimpleTitleWithSubTit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

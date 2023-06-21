@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_system_kit_gallery_with_center_title_kits",
+    "info": {
+        "displayName": "GalleryWithCenterTitle-kit",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "description": {
+            "type": "string"
+        },
+        "authorName": {
+            "type": "string"
+        },
+        "authorTitle": {
+            "type": "string"
+        },
+        "imageTopLeft": {
+            "type": "string"
+        },
+        "imageMidLeft": {
+            "type": "string"
+        },
+        "imageBotLeft": {
+            "type": "string"
+        },
+        "imageTopRight": {
+            "type": "string"
+        },
+        "imageMidRight": {
+            "type": "string"
+        },
+        "imageBotRight": {
+            "type": "string"
+        }
+    }
+}

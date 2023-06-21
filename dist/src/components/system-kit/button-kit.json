@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_content_button_kits",
+    "info": {
+        "displayName": "Button-kit",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_homepage_left_galleries",
+    "info": {
+        "displayName": "GalleryThreeImage-kit",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "ImageTop": {
+            "type": "string"
+        },
+        "ImageMid": {
+            "type": "string"
+        },
+        "ImageBot": {
+            "type": "string"
+        }
+    }
+}

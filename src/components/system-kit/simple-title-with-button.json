@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_system_kit_simple_title_with_buttons",
+  "info": {
+    "displayName": "SimpleTitleWithButton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

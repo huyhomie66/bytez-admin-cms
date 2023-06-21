@@ -116,3 +116,5 @@ exports
 .strapi-updater.json
 yarn.lock
 nginx.conf
+
+dist

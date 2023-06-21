@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_works_clinics",
+  "info": {
+    "singularName": "how-it-works-clinic",
+    "pluralName": "how-it-works-clinics",
+    "displayName": "HowItWorksClinic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.banner-without-button-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "imagewithDescSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "simpleTitleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.simple-title-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "simpleToSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.above-img-with-title-desc-below-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "benefitSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.above-img-with-title-desc-below-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "keyHightlighSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "system-kit.seo-tag",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

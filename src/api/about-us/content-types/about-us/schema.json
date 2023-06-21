@@ -1,0 +1,80 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.banner-without-button-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "theTeamMemberSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.member-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "feedbackSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.image-with-description-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "awardsLeftSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.content-with-many-images",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "awardsRightSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.image-kit",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.seo-tag",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

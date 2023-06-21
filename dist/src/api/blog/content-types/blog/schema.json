@@ -1,0 +1,40 @@
+{
+    "kind": "singleType",
+    "collectionName": "blogs",
+    "info": {
+        "singularName": "blog",
+        "pluralName": "blogs",
+        "displayName": "Blog",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "banner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "system-kit.banner-kit",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "meta": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.seo-tag",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        }
+    }
+}
