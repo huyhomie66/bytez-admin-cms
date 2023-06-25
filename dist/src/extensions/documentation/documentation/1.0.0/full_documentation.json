@@ -14,19 +14,23 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-06-24T10:47:19.023Z"
+        "x-generation-date": "2023-06-25T15:06:04.473Z"
     },
     "x-strapi-config": {
-        "path": "/documentation",
         "plugins": [
             "upload",
             "users-permissions"
-        ]
+        ],
+        "path": "/documentation"
     },
     "servers": [
         {
             "url": "http://localhost:1337/api",
             "description": "Development server"
+        },
+        {
+            "url": "https://gen-dev.bytez.pro/api",
+            "description": "Staging server"
         }
     ],
     "externalDocs": {
