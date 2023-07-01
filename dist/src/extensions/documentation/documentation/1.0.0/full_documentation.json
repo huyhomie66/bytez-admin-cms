@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-06-30T08:27:03.889Z"
+        "x-generation-date": "2023-07-01T15:50:42.425Z"
     },
     "x-strapi-config": {
         "plugins": [
@@ -4067,7 +4067,7 @@
                             "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
                         }
                     },
-                    "formSubcribeSection": {
+                    "formSubscribeSection": {
                         "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
                     },
                     "meta": {
@@ -4108,7 +4108,7 @@
                                     "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
                                 }
                             },
-                            "formSubcribeSection": {
+                            "formSubscribeSection": {
                                 "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
                             },
                             "meta": {
@@ -4259,7 +4259,7 @@
                             "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
                         }
                     },
-                    "formSubcribeSection": {
+                    "formSubscribeSection": {
                         "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
                     },
                     "meta": {

@@ -7,7 +7,7 @@
     "options": {},
     "attributes": {
         "backgroundImage": {
-            "type": "string"
+            "type": "text"
         },
         "title": {
             "type": "string"
