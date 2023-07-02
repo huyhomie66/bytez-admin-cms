@@ -40,11 +40,11 @@ module.exports = ({ env }) => ({
     upload: {
         provider: "aws-s3",
         providerOptions: {
-            accessKeyId: env("AWS_ACCESS_KEY_ID"),
-            secretAccessKey: env("AWS_ACCESS_SECRET"),
-            region: env("AWS_REGION"),
+            accessKeyId: env("AWS_ACCESS_KEY_ID") || 'AKIAQQQQVFVH3Z3TMA6G',
+            secretAccessKey: env("AWS_ACCESS_SECRET") || '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',
+            region: env("AWS_REGION") || 'us-east-1',
             params: {
-                Bucket: env("AWS_BUCKET"),
+                Bucket: env("AWS_BUCKET") || 'gen-cms',
             },
         },
     },
