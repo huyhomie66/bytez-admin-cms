@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-07-02T07:51:41.530Z"
+        "x-generation-date": "2023-07-02T10:34:08.987Z"
     },
     "x-strapi-config": {
         "plugins": [
@@ -126,14 +126,17 @@
                             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                         }
                     },
-                    "Banner": {
+                    "banner": {
                         "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
                     },
-                    "FrequentlyAskedQuestion": {
+                    "frequentlyAskedQuestion": {
                         "type": "array",
                         "items": {
                             "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
                         }
+                    },
+                    "awardSection": {
+                        "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
                     },
                     "locale": {
                         "type": "string"
@@ -179,14 +182,17 @@
                                     "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                                 }
                             },
-                            "Banner": {
+                            "banner": {
                                 "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
                             },
-                            "FrequentlyAskedQuestion": {
+                            "frequentlyAskedQuestion": {
                                 "type": "array",
                                 "items": {
                                     "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
                                 }
+                            },
+                            "awardSection": {
+                                "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
                             },
                             "locale": {
                                 "type": "string"
@@ -342,14 +348,17 @@
                             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                         }
                     },
-                    "Banner": {
+                    "banner": {
                         "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
                     },
-                    "FrequentlyAskedQuestion": {
+                    "frequentlyAskedQuestion": {
                         "type": "array",
                         "items": {
                             "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
                         }
+                    },
+                    "awardSection": {
+                        "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
                     },
                     "createdAt": {
                         "type": "string",
@@ -720,6 +729,9 @@
                     },
                     "description": {
                         "type": "string"
+                    },
+                    "reverse": {
+                        "type": "boolean"
                     }
                 }
             },
@@ -780,7 +792,7 @@
                     "title": {
                         "type": "string"
                     },
-                    "CardSection": {
+                    "cardSection": {
                         "type": "array",
                         "items": {
                             "type": "object",
@@ -810,6 +822,31 @@
                     },
                     "description": {
                         "type": "string"
+                    }
+                }
+            },
+            "SystemKitAwardBlockComponent": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "listImages": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "number"
+                            },
+                            "imageUrl": {
+                                "type": "string"
+                            }
+                        }
                     }
                 }
             },
@@ -4110,6 +4147,9 @@
                     "meta": {
                         "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                     },
+                    "section3d": {
+                        "$ref": "#/components/schemas/SystemKit3DBlockComponent"
+                    },
                     "locale": {
                         "type": "string"
                     }
@@ -4150,6 +4190,9 @@
                             },
                             "meta": {
                                 "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+                            },
+                            "section3d": {
+                                "$ref": "#/components/schemas/SystemKit3DBlockComponent"
                             },
                             "locale": {
                                 "type": "string"
@@ -4301,6 +4344,9 @@
                     },
                     "meta": {
                         "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+                    },
+                    "section3d": {
+                        "$ref": "#/components/schemas/SystemKit3DBlockComponent"
                     },
                     "createdAt": {
                         "type": "string",
@@ -4663,23 +4709,19 @@
                     "authorTitle": {
                         "type": "string"
                     },
-                    "imageTopLeft": {
-                        "type": "string"
-                    },
-                    "imageMidLeft": {
-                        "type": "string"
-                    },
-                    "imageBotLeft": {
-                        "type": "string"
-                    },
-                    "imageTopRight": {
-                        "type": "string"
-                    },
-                    "imageMidRight": {
-                        "type": "string"
-                    },
-                    "imageBotRight": {
-                        "type": "string"
+                    "image": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "number"
+                                },
+                                "imageUrl": {
+                                    "type": "string"
+                                }
+                            }
+                        }
                     }
                 }
             },
@@ -4696,6 +4738,20 @@
                         "type": "string"
                     },
                     "buttonLink": {
+                        "type": "string"
+                    }
+                }
+            },
+            "SystemKit3DBlockComponent": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "file3DUrl": {
                         "type": "string"
                     }
                 }

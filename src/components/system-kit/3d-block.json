@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_system_kit_3d_blocks",
+  "info": {
+    "displayName": "3dBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file3DUrl": {
+      "type": "string"
+    }
+  }
+}

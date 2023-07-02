@@ -15,23 +15,10 @@
         "authorTitle": {
             "type": "string"
         },
-        "imageTopLeft": {
-            "type": "string"
-        },
-        "imageMidLeft": {
-            "type": "string"
-        },
-        "imageBotLeft": {
-            "type": "string"
-        },
-        "imageTopRight": {
-            "type": "string"
-        },
-        "imageMidRight": {
-            "type": "string"
-        },
-        "imageBotRight": {
-            "type": "string"
+        "image": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.images"
         }
     }
 }

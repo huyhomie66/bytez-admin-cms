@@ -85,6 +85,16 @@
         }
       },
       "component": "system-kit.seo-tag"
+    },
+    "section3d": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.3d-block"
     }
   }
 }

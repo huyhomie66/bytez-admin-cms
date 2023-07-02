@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_system_kit_award_blocks",
+  "info": {
+    "displayName": "AwardBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.images"
+    }
+  }
+}
