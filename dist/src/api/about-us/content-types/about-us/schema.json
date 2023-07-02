@@ -75,6 +75,26 @@
                 }
             },
             "component": "system-kit.award-block"
+        },
+        "highlightSection": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "system-kit.above-img-with-title-desc-below-kit"
+        },
+        "formSubscribeSection": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "system-kit.simple-title-with-button"
         }
     }
 }
