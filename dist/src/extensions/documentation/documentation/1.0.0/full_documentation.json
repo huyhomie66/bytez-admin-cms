@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-07-02T12:01:26.833Z"
+        "x-generation-date": "2023-07-02T17:43:04.498Z"
     },
     "x-strapi-config": {
         "plugins": [
@@ -126,6 +126,15 @@
                     "awardSection": {
                         "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
                     },
+                    "highlightSection": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
+                        }
+                    },
+                    "formSubscribeSection": {
+                        "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+                    },
                     "locale": {
                         "type": "string"
                     }
@@ -169,6 +178,15 @@
                             },
                             "awardSection": {
                                 "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
+                            },
+                            "highlightSection": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
+                                }
+                            },
+                            "formSubscribeSection": {
+                                "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
                             },
                             "locale": {
                                 "type": "string"
@@ -323,6 +341,15 @@
                     },
                     "awardSection": {
                         "$ref": "#/components/schemas/SystemKitAwardBlockComponent"
+                    },
+                    "highlightSection": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
+                        }
+                    },
+                    "formSubscribeSection": {
+                        "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
                     },
                     "createdAt": {
                         "type": "string",
@@ -789,6 +816,40 @@
                                 }
                             }
                         }
+                    }
+                }
+            },
+            "SystemKitAboveImgWithTitleDescBelowKitComponent": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "image": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                }
+            },
+            "SystemKitSimpleTitleWithButtonComponent": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "buttonTitle": {
+                        "type": "string"
+                    },
+                    "buttonLink": {
+                        "type": "string"
                     }
                 }
             },
@@ -4667,23 +4728,6 @@
                     }
                 }
             },
-            "SystemKitSimpleTitleWithButtonComponent": {
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "number"
-                    },
-                    "title": {
-                        "type": "string"
-                    },
-                    "buttonTitle": {
-                        "type": "string"
-                    },
-                    "buttonLink": {
-                        "type": "string"
-                    }
-                }
-            },
             "SystemKit3DBlockComponent": {
                 "type": "object",
                 "properties": {
@@ -5274,23 +5318,6 @@
                         "type": "number"
                     },
                     "backgroundImage": {
-                        "type": "string"
-                    },
-                    "title": {
-                        "type": "string"
-                    },
-                    "description": {
-                        "type": "string"
-                    }
-                }
-            },
-            "SystemKitAboveImgWithTitleDescBelowKitComponent": {
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "number"
-                    },
-                    "image": {
                         "type": "string"
                     },
                     "title": {

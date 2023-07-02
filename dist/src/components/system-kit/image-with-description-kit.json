@@ -6,9 +6,6 @@
     },
     "options": {},
     "attributes": {
-        "image": {
-            "type": "string"
-        },
         "title": {
             "type": "string"
         },
@@ -17,6 +14,11 @@
         },
         "reverse": {
             "type": "boolean"
+        },
+        "image": {
+            "type": "component",
+            "repeatable": true,
+            "component": "system-kit.images"
         }
     }
 }
