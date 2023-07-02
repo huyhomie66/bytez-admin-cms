@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_system_kit_card_kits",
+  "info": {
+    "displayName": "Card-kit"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

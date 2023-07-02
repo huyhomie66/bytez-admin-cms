@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-01T16:03:43.699Z"
+    "x-generation-date": "2023-07-02T08:15:12.780Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -96,12 +96,6 @@
         ],
         "type": "object",
         "properties": {
-          "banner": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-            }
-          },
           "theTeamMemberSection": {
             "type": "array",
             "items": {
@@ -132,6 +126,15 @@
               "$ref": "#/components/schemas/SystemKitSeoTagComponent"
             }
           },
+          "Banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+          },
+          "FrequentlyAskedQuestion": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
+            }
+          },
           "locale": {
             "type": "string"
           }
@@ -146,12 +149,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "banner": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-                }
-              },
               "theTeamMemberSection": {
                 "type": "array",
                 "items": {
@@ -180,6 +177,15 @@
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+                }
+              },
+              "Banner": {
+                "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+              },
+              "FrequentlyAskedQuestion": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
                 }
               },
               "locale": {
@@ -306,12 +312,6 @@
       "AboutUs": {
         "type": "object",
         "properties": {
-          "banner": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-            }
-          },
           "theTeamMemberSection": {
             "type": "array",
             "items": {
@@ -340,6 +340,15 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+            }
+          },
+          "Banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+          },
+          "FrequentlyAskedQuestion": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SystemKitFrequentlyAskedQuestionsKitComponent"
             }
           },
           "createdAt": {
@@ -677,23 +686,6 @@
           }
         }
       },
-      "SystemKitBannerWithoutButtonKitComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "backgroundImage": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          }
-        }
-      },
       "SystemKitMemberBlockComponent": {
         "type": "object",
         "properties": {
@@ -728,6 +720,9 @@
           },
           "description": {
             "type": "string"
+          },
+          "reverse": {
+            "type": "boolean"
           }
         }
       },
@@ -772,6 +767,51 @@
             "type": "string"
           },
           "type": {
+            "type": "string"
+          }
+        }
+      },
+      "SystemKitBannerSecondaryKitComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "backgroundImage": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "CardSection": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "Image": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "SystemKitFrequentlyAskedQuestionsKitComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
             "type": "string"
           }
         }
@@ -5229,6 +5269,23 @@
           },
           "meta": {
             "type": "object"
+          }
+        }
+      },
+      "SystemKitBannerWithoutButtonKitComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "backgroundImage": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
           }
         }
       },

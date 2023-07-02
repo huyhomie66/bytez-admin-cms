@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_system_kit_banner_secondary_kits",
+  "info": {
+    "displayName": "BannerSecondary-kit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "CardSection": {
+      "displayName": "Card-kit",
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.card-kit"
+    }
+  }
+}

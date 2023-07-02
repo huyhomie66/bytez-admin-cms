@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_system_kit_frequently_asked_questions_kits",
+  "info": {
+    "displayName": "FrequentlyAskedQuestions-kit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

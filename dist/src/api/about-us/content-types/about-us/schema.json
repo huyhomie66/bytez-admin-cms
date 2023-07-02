@@ -16,16 +16,6 @@
         }
     },
     "attributes": {
-        "banner": {
-            "type": "component",
-            "repeatable": true,
-            "component": "system-kit.banner-without-button-kit",
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                }
-            }
-        },
         "theTeamMemberSection": {
             "type": "component",
             "repeatable": true,
@@ -75,6 +65,26 @@
                     "localized": true
                 }
             }
+        },
+        "Banner": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "system-kit.banner-secondary-kit"
+        },
+        "FrequentlyAskedQuestion": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "component": "system-kit.frequently-asked-questions-kit"
         }
     }
 }
