@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2023-07-02T10:34:08.987Z"
+        "x-generation-date": "2023-07-02T11:57:11.902Z"
     },
     "x-strapi-config": {
         "plugins": [
@@ -108,18 +108,6 @@
                             "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                         }
                     },
-                    "awardsLeftSection": {
-                        "type": "array",
-                        "items": {
-                            "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
-                        }
-                    },
-                    "awardsRightSection": {
-                        "type": "array",
-                        "items": {
-                            "$ref": "#/components/schemas/SystemKitImageKitComponent"
-                        }
-                    },
                     "meta": {
                         "type": "array",
                         "items": {
@@ -162,18 +150,6 @@
                                 "type": "array",
                                 "items": {
                                     "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                                }
-                            },
-                            "awardsLeftSection": {
-                                "type": "array",
-                                "items": {
-                                    "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
-                                }
-                            },
-                            "awardsRightSection": {
-                                "type": "array",
-                                "items": {
-                                    "$ref": "#/components/schemas/SystemKitImageKitComponent"
                                 }
                             },
                             "meta": {
@@ -328,18 +304,6 @@
                         "type": "array",
                         "items": {
                             "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                        }
-                    },
-                    "awardsLeftSection": {
-                        "type": "array",
-                        "items": {
-                            "$ref": "#/components/schemas/SystemKitContentWithManyImagesComponent"
-                        }
-                    },
-                    "awardsRightSection": {
-                        "type": "array",
-                        "items": {
-                            "$ref": "#/components/schemas/SystemKitImageKitComponent"
                         }
                     },
                     "meta": {
@@ -735,31 +699,6 @@
                     }
                 }
             },
-            "SystemKitContentWithManyImagesComponent": {
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "number"
-                    },
-                    "title": {
-                        "type": "string"
-                    },
-                    "description": {
-                        "type": "string"
-                    }
-                }
-            },
-            "SystemKitImageKitComponent": {
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "number"
-                    },
-                    "imageUrl": {
-                        "type": "string"
-                    }
-                }
-            },
             "SystemKitSeoTagComponent": {
                 "type": "object",
                 "properties": {
@@ -837,14 +776,17 @@
                     "description": {
                         "type": "string"
                     },
-                    "listImages": {
-                        "type": "object",
-                        "properties": {
-                            "id": {
-                                "type": "number"
-                            },
-                            "imageUrl": {
-                                "type": "string"
+                    "image": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "number"
+                                },
+                                "imageUrl": {
+                                    "type": "string"
+                                }
                             }
                         }
                     }
