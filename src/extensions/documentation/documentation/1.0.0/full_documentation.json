@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-02T19:22:19.844Z"
+    "x-generation-date": "2023-07-02T20:06:39.312Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -4150,10 +4150,7 @@
             "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "galleryWithCenterTitleSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
           },
           "formSubscribeSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
@@ -4194,10 +4191,7 @@
                 "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
               },
               "galleryWithCenterTitleSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
               },
               "formSubscribeSection": {
                 "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
@@ -4348,10 +4342,7 @@
             "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "galleryWithCenterTitleSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
           },
           "formSubscribeSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"

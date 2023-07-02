@@ -40,20 +40,18 @@ module.exports = ({ env }) => ({
     upload: {
         provider: "aws-s3",
         providerOptions: {
-            s3Options: {
-                accessKeyId: env("AWS_ACCESS_KEY_ID") || 'AKIAQQQQVFVH3Z3TMA6G',
-                secretAccessKey: env("AWS_ACCESS_SECRET") || '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',
-                region: env("AWS_REGION") || 'us-east-1',
-                params: {
-                    Bucket: env("AWS_BUCKET") || 'gen-cms',
-                },
-            }
+            accessKeyId: 'AKIAQQQQVFVHYQ2DB2RZ',
+            secretAccessKey: '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',
+            region: 'us-east-1',
+            params: {
+                Bucket: 'gen-cms',
+            },
         },
-        actionOptions: {
-            upload: {},
-            uploadStream: {},
-            delete: {},
-        },
+        // actionOptions: {
+        //   upload: {},
+        //   uploadStream: {},
+        //   delete: {},
+        // },
     },
     'strapi-plugin-populate-deep': {
         config: {
