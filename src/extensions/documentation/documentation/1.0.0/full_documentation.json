@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-04T19:40:46.690Z"
+    "x-generation-date": "2023-07-04T19:57:06.295Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -4135,9 +4135,6 @@
               "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "benefitSection": {
-            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-          },
           "galleryWithCenterTitleSection": {
             "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
           },
@@ -4149,6 +4146,9 @@
           },
           "section3d": {
             "$ref": "#/components/schemas/SystemKit3DBlockComponent"
+          },
+          "benefitSection": {
+            "$ref": "#/components/schemas/SystemKitManyImageWithDescComponent"
           },
           "locale": {
             "type": "string"
@@ -4176,9 +4176,6 @@
                   "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
                 }
               },
-              "benefitSection": {
-                "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-              },
               "galleryWithCenterTitleSection": {
                 "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
               },
@@ -4190,6 +4187,9 @@
               },
               "section3d": {
                 "$ref": "#/components/schemas/SystemKit3DBlockComponent"
+              },
+              "benefitSection": {
+                "$ref": "#/components/schemas/SystemKitManyImageWithDescComponent"
               },
               "locale": {
                 "type": "string"
@@ -4327,9 +4327,6 @@
               "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
             }
           },
-          "benefitSection": {
-            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-          },
           "galleryWithCenterTitleSection": {
             "$ref": "#/components/schemas/SystemKitGalleryWithCenterTitleKitComponent"
           },
@@ -4341,6 +4338,9 @@
           },
           "section3d": {
             "$ref": "#/components/schemas/SystemKit3DBlockComponent"
+          },
+          "benefitSection": {
+            "$ref": "#/components/schemas/SystemKitManyImageWithDescComponent"
           },
           "createdAt": {
             "type": "string",
@@ -4730,6 +4730,37 @@
           },
           "file3DUrl": {
             "type": "string"
+          }
+        }
+      },
+      "SystemKitManyImageWithDescComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "reverse": {
+            "type": "boolean"
+          },
+          "image": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "imageUrl": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },

@@ -46,16 +46,6 @@
       },
       "component": "system-kit.image-with-description-kit"
     },
-    "benefitSection": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "system-kit.image-with-description-kit"
-    },
     "galleryWithCenterTitleSection": {
       "type": "component",
       "repeatable": false,
@@ -95,6 +85,17 @@
         }
       },
       "component": "system-kit.3d-block"
+    },
+    "benefitSection": {
+      "displayName": "ManyImageWithDesc",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.many-image-with-desc"
     }
   }
 }
