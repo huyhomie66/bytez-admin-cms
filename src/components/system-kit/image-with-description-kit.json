@@ -16,9 +16,7 @@
       "type": "boolean"
     },
     "image": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.images"
+      "type": "string"
     }
   }
 }
