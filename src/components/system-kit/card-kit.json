@@ -1,11 +1,12 @@
 {
   "collectionName": "components_system_kit_card_kits",
   "info": {
-    "displayName": "Card-kit"
+    "displayName": "Card-kit",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Image": {
+    "image": {
       "type": "string"
     },
     "description": {
