@@ -16,16 +16,6 @@
     }
   },
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.banner-without-button-kit",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "imagewithDescSection": {
       "type": "component",
       "repeatable": false,
@@ -66,16 +56,6 @@
         }
       }
     },
-    "keyHightlighSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "system-kit.image-with-description-kit",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "meta": {
       "type": "component",
       "repeatable": false,
@@ -85,6 +65,26 @@
           "localized": true
         }
       }
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.banner-secondary-kit"
+    },
+    "keyHightlighSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.image-with-desc-secondary"
     }
   }
 }

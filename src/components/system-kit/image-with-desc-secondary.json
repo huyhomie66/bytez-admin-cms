@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_system_kit_image_with_desc_secondaries",
+  "info": {
+    "displayName": "imageWithDescSecondary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "string"
+    },
+    "contentBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.content-block"
+    },
+    "reverse": {
+      "type": "boolean"
+    }
+  }
+}
