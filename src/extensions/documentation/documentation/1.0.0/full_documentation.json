@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-06T12:20:04.359Z"
+    "x-generation-date": "2023-07-06T16:48:45.102Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -6551,14 +6551,14 @@
         ],
         "type": "object",
         "properties": {
-          "banner": {
-            "$ref": "#/components/schemas/SystemKitBannerKitComponent"
-          },
           "meta": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitSeoTagComponent"
             }
+          },
+          "banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
           },
           "locale": {
             "type": "string"
@@ -6574,14 +6574,14 @@
           "data": {
             "type": "object",
             "properties": {
-              "banner": {
-                "$ref": "#/components/schemas/SystemKitBannerKitComponent"
-              },
               "meta": {
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/SystemKitSeoTagComponent"
                 }
+              },
+              "banner": {
+                "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
               },
               "locale": {
                 "type": "string"
@@ -6707,14 +6707,14 @@
       "Investor": {
         "type": "object",
         "properties": {
-          "banner": {
-            "$ref": "#/components/schemas/SystemKitBannerKitComponent"
-          },
           "meta": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SystemKitSeoTagComponent"
             }
+          },
+          "banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
           },
           "createdAt": {
             "type": "string",

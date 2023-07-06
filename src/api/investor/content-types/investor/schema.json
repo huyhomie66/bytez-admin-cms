@@ -16,16 +16,6 @@
     }
   },
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "system-kit.banner-kit",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "meta": {
       "type": "component",
       "repeatable": true,
@@ -35,6 +25,16 @@
           "localized": true
         }
       }
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.banner-secondary-kit"
     }
   }
 }
