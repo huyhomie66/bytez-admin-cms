@@ -86,7 +86,7 @@
       },
       "component": "system-kit.banner-secondary-kit"
     },
-    "keyHighlightSection": {
+    "howToMakeSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -94,7 +94,7 @@
           "localized": true
         }
       },
-      "component": "system-kit.image-with-desc-secondary"
+      "component": "system-kit.image-with-desc-third"
     }
   }
 }

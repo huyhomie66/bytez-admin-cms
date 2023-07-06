@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-06T11:54:00.084Z"
+    "x-generation-date": "2023-07-06T12:20:04.359Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -5917,8 +5917,8 @@
           "banner": {
             "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
           },
-          "keyHighlightSection": {
-            "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+          "howToMakeSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
           },
           "locale": {
             "type": "string"
@@ -5970,8 +5970,8 @@
               "banner": {
                 "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
               },
-              "keyHighlightSection": {
-                "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+              "howToMakeSection": {
+                "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
               },
               "locale": {
                 "type": "string"
@@ -6133,8 +6133,8 @@
           "banner": {
             "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
           },
-          "keyHighlightSection": {
-            "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+          "howToMakeSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
           },
           "createdAt": {
             "type": "string",
@@ -6508,6 +6508,40 @@
           },
           "buttonLink": {
             "type": "string"
+          }
+        }
+      },
+      "SystemKitImageWithDescThirdComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "contentBlock": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "reverse": {
+            "type": "boolean"
           }
         }
       },

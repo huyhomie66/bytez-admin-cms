@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_system_kit_image_with_desc_thirds",
+  "info": {
+    "displayName": "ImageWithDescThird"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "contentBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "system-kit.content-block"
+    },
+    "reverse": {
+      "type": "boolean"
+    }
+  }
+}
