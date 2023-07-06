@@ -11,6 +11,12 @@
     },
     "subTitle": {
       "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
     }
   }
 }

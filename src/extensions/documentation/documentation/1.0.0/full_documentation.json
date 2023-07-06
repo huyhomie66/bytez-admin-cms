@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-06T11:33:52.923Z"
+    "x-generation-date": "2023-07-06T11:54:00.084Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -5881,12 +5881,6 @@
         ],
         "type": "object",
         "properties": {
-          "banner": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-            }
-          },
           "theProductSection": {
             "type": "array",
             "items": {
@@ -5905,12 +5899,6 @@
               "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
           },
-          "keyHighlightSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithListDescComponent"
-            }
-          },
           "simpleTitleWithSubSection": {
             "type": "array",
             "items": {
@@ -5926,6 +5914,12 @@
           "meta": {
             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
           },
+          "banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+          },
+          "keyHighlightSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -5940,12 +5934,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "banner": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-                }
-              },
               "theProductSection": {
                 "type": "array",
                 "items": {
@@ -5964,12 +5952,6 @@
                   "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
                 }
               },
-              "keyHighlightSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithListDescComponent"
-                }
-              },
               "simpleTitleWithSubSection": {
                 "type": "array",
                 "items": {
@@ -5984,6 +5966,12 @@
               },
               "meta": {
                 "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+              },
+              "banner": {
+                "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+              },
+              "keyHighlightSection": {
+                "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
               },
               "locale": {
                 "type": "string"
@@ -6109,12 +6097,6 @@
       "HowItWorksParent": {
         "type": "object",
         "properties": {
-          "banner": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitBannerWithoutButtonKitComponent"
-            }
-          },
           "theProductSection": {
             "type": "array",
             "items": {
@@ -6133,12 +6115,6 @@
               "$ref": "#/components/schemas/SystemKitAboveImgWithTitleDescBelowKitComponent"
             }
           },
-          "keyHighlightSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithListDescComponent"
-            }
-          },
           "simpleTitleWithSubSection": {
             "type": "array",
             "items": {
@@ -6153,6 +6129,12 @@
           },
           "meta": {
             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
+          },
+          "banner": {
+            "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+          },
+          "keyHighlightSection": {
+            "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
           },
           "createdAt": {
             "type": "string",
@@ -6489,46 +6471,6 @@
           }
         }
       },
-      "SystemKitBannerWithoutButtonKitComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "backgroundImage": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          }
-        }
-      },
-      "SystemKitImageWithListDescComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "image": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "firstDesc": {
-            "type": "string"
-          },
-          "secondDesc": {
-            "type": "string"
-          },
-          "thirdDesc": {
-            "type": "string"
-          }
-        }
-      },
       "SystemKitSimpleTitleWithSubTitComponent": {
         "type": "object",
         "properties": {
@@ -6539,6 +6481,12 @@
             "type": "string"
           },
           "subTitle": {
+            "type": "string"
+          },
+          "buttonTitle": {
+            "type": "string"
+          },
+          "buttonLink": {
             "type": "string"
           }
         }

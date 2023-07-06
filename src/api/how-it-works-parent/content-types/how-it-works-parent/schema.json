@@ -16,16 +16,6 @@
     }
   },
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.banner-without-button-kit",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "theProductSection": {
       "type": "component",
       "repeatable": true,
@@ -50,16 +40,6 @@
       "type": "component",
       "repeatable": true,
       "component": "system-kit.above-img-with-title-desc-below-kit",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "keyHighlightSection": {
-      "type": "component",
-      "repeatable": true,
-      "component": "system-kit.image-with-list-desc",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -95,6 +75,26 @@
           "localized": true
         }
       }
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.banner-secondary-kit"
+    },
+    "keyHighlightSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.image-with-desc-secondary"
     }
   }
 }
