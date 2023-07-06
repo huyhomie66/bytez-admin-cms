@@ -1,0 +1,858 @@
+{
+  "en": {
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
+      "title": "Embryo genome sequencing for IVF",
+      "description": "GenEmbryomics is the only company to offer a comprehensive whole-genome sequencing screening test for your IVF embryos. We provide a solution that empowers parents and providers to make informed embryo selections, reducing reliance on chance.",
+      "buttonTitle": "Know more",
+      "buttonLink": "string"
+    },
+    "simpleSection": {
+      "id": 1,
+      "title": "string"
+    },
+    "processSection": [
+      {
+            "id": 2,
+            "title": "Genetic diseases can affect your embryos",
+            "description": "IVF is improving, but undiagnosed genetic diseases can still occur. 1 in 25 families are affected by genetic diseases, and 4,525 severe or fatal genetic diseases are routinely missed by standard pre-implantation genetic testing (PGT).",
+            "reverse": false,
+            "image": [
+              {
+                "id": 39,
+                "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process1_d41fc43d45.png"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "title": "Fertility specialist  Believe about Embrayo",
+            "description": "We provide actionable whole genome sequencing (PGT-WGS) and interpretation of your embryos' genomes so that you can make informed decisions for the future of your family.",
+            "reverse": true,
+            "image": [
+              {
+                "id": 40,
+                "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process2_6c0ca4f542.png"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "How to make IVF Free from genetic diseases",
+            "description": "GenEmbryomics is the first to provide a solution capable of screening 100% of genetic diseases. This allows parents, under guidance, to select the most optimal embryo for implantation. Parents thus have increased confidence of a successful IVF with the associated peace of mind for a lifetime.",
+            "reverse": false,
+            "image": [
+              {
+                "id": 41,
+                "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process3_5820cea771.png"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "A solution that is  capable of screning 100% genetic diseases",
+            "description": "GenEmbryomics is the first to provide a solution capable of screening 100% of genetic diseases. This allows parents, under guidance, to select the most optimal embryo for implantation. Parents thus have increased confidence of a successful IVF with the associated peace of mind for a lifetime.",
+            "reverse": true,
+            "image": [
+              {
+                "id": 42,
+                "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process4_5fa57af696.png"
+              }
+            ]
+          }
+    ],
+    "galleryWithCenterTitleSection": {
+      "id": 1,
+          "description": "“I’ve completed support from my Agency  about 1 years ago. Their make the prototyping process so easy and faster. I feel this is the best apps for the prototyping use”",
+          "authorName": "William Smith",
+          "authorTitle": "CEO f ZaVad Company",
+          "image": [
+            {
+              "id": 1,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb1_017f97e711.png"
+            },
+            {
+              "id": 2,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb2_0a67707db4.png"
+            },
+            {
+              "id": 3,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb3_61a4d67707.png"
+            },
+            {
+              "id": 4,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb4_2bf6ccbc42.png"
+            },
+            {
+              "id": 5,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb5_669cebb8ea.png"
+            },
+            {
+              "id": 7,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb6_3d0df9d1b3.png"
+            },
+            {
+              "id": 6,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb7_a6b074c479.png"
+            },
+            {
+              "id": 8,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb8_47876922e5.png"
+            },
+            {
+              "id": 9,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right1_ab757c7d08.png"
+            },
+            {
+              "id": 10,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right2_8e714d502a.png"
+            },
+            {
+              "id": 11,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right3_eb3574f13b.png"
+            },
+            {
+              "id": 12,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right4_af4a975ebc.png"
+            },
+            {
+              "id": 13,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right5_bcd2ed91fa.png"
+            },
+            {
+              "id": 14,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right6_745fa93760.png"
+            }
+          ]
+    },
+    "formSubscribeSection": {
+      "id": 1,
+          "title": "Subscribe Now for Get Special Features!",
+          "buttonTitle": "Submit",
+          "buttonLink": null
+    },
+    "meta": {
+      "id": 1,
+          "title": "Homepage",
+          "description": "Homepage",
+          "keywords": "homepage",
+          "type": "website"
+    },
+    "section3d": {
+     "id": 1,
+          "title": "Screen your embryos by unlocking  the power of the genome",
+          "file3DUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/dna_upgrades_0ef3305a76.spline"
+    },
+    "benefitSection": {
+      "id": 1,
+          "title": "Accessible Adoptable  Affordable",
+          "description": "GenEmbryomics is the first to provide a solution capable of screening 100% of genetic diseases. This allows parents, under guidance, to select the most optimal embryo for implantation. Parents thus have increased confidence of a successful IVF with the associated peace of mind for a lifetime.",
+          "reverse": false,
+          "buttonTitle": "Know more",
+          "buttonLink": null,
+          "image": [
+            {
+              "id": 22,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+            },
+            {
+              "id": 23,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+            },
+            {
+              "id": 24,
+              "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+            }
+          ],
+      "buttonTitle": "Know more",
+      "buttonLink": null
+    },
+    "locale": "en"
+  },
+  "vi": {
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
+      "title": "Sequencing Genôm phôi để thụ tinh trong ống nghiệm (IVF)",
+      "description": "GenEmbryomics là công ty duy nhất cung cấp bộ sàng lọc toàn diện các xét nghiệm kiểm tra genôm phôi IVF của bạn. Chúng tôi cung cấp một giải pháp giúp phụ huynh và nhà cung cấp có thể đưa ra quyết định chọn phôi thông minh, giảm sự phụ thuộc vào may mắn.",
+      "buttonTitle": "Tìm hiểu thêm",
+      "buttonLink": "string"
+    },
+    "simpleSection": {
+      "id": 1,
+      "title": "Chuỗi đơn giản"
+    },
+    "processSection": [
+      {
+        "id": 2,
+        "title": "Các bệnh di truyền có thể ảnh hưởng đến phôi của bạn",
+        "description": "IVF đang được cải tiến, nhưng vẫn có thể xảy ra các bệnh di truyền chưa được chẩn đoán. Một trong 25 gia đình bị ảnh hưởng bởi các bệnh di truyền, và có đến 4.525 bệnh di truyền nghiêm trọng hoặc tử vong thường bị bỏ sót trong quá trình kiểm tra di truyền tiền phôi chuẩn (PGT).",
+        "reverse": false,
+        "image": [
+          {
+            "id": 39,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process1_d41fc43d45.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Chuyên gia về sinh sản tin tưởng về Embryo",
+        "description": "Chúng tôi cung cấp dịch vụ chuỗi gen toàn diện có hành động (PGT-WGS) và diễn giải genôm của phôi của bạn để bạn có thể đưa ra quyết định thông minh cho tương lai gia đình của bạn.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 40,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process2_6c0ca4f542.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Làm thế nào để làm cho IVF không còn bị ảnh hưởng bởi bệnh di truyền",
+        "description": "GenEmbryomics là công ty đầu tiên cung cấp một giải pháp có khả năng sàng lọc 100% các bệnh di truyền. Điều này cho phép phụ huynh, dưới sự hướng dẫn, có thể lựa chọn phôi tối ưu nhất để cấy ghép. Phụ huynh sẽ tự tin hơn với quá trình IVF thành công và sự yên tâm liên quan suốt đời.",
+        "reverse": false,
+        "image": [
+          {
+            "id": 41,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process3_5820cea771.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Một giải pháp có khả năng sàng lọc 100% các bệnh di truyền",
+        "description": "GenEmbryomics là công ty đầu tiên cung cấp một giải pháp có khả năng sàng lọc 100% các bệnh di truyền. Điều này cho phép phụ huynh, dưới sự hướng dẫn, có thể lựa chọn phôi tối ưu nhất để cấy ghép. Phụ huynh sẽ tự tin hơn với quá trình IVF thành công và sự yên tâm liên quan suốt đời.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 42,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process4_5fa57af696.png"
+          }
+        ]
+      }
+    ],
+    "galleryWithCenterTitleSection": {
+      "id": 1,
+      "description": "“Tôi đã hoàn thành sự hỗ trợ từ Công ty của mình cách đây khoảng 1 năm. Họ làm quá trình tạo nguyên mẫu trở nên dễ dàng và nhanh chóng. Tôi cảm thấy đây là ứng dụng tốt nhất cho việc tạo nguyên mẫu”",
+      "authorName": "William Smith",
+      "authorTitle": "Giám đốc điều hành Công ty ZaVad",
+      "image": [
+        {
+          "id": 1,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb1_017f97e711.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb2_0a67707db4.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb3_61a4d67707.png"
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-sou-déo.amazonaws.com/Homepage_Thumb4_2bf6ccbc42.png"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb5_669cebb8ea.png"
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb6_3d0df9d1b3.png"
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb7_a6b074c479.png"
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb8_47876922e5.png"
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right1_ab757c7d08.png"
+        },
+        {
+          "id": 10,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right2_8e714d502a.png"
+        },
+        {
+          "id": 11,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right3_eb3574f13b.png"
+        },
+        {
+          "id": 12,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right4_af4a975ebc.png"
+        },
+        {
+          "id": 13,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right5_bcd2ed91fa.png"
+        },
+        {
+          "id": 14,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right6_745fa93760.png"
+        }
+      ]
+    },
+    "formSubscribeSection": {
+      "id": 1,
+      "title": "Đăng ký ngay để nhận các tính năng đặc biệt!",
+      "buttonTitle": "Gửi",
+      "buttonLink": null
+    },
+    "meta": {
+      "id": 1,
+      "title": "Trang chủ",
+      "description": "Trang chủ",
+      "keywords": "trang chủ",
+      "type": "website"
+    },
+    "section3d": {
+      "id": 1,
+      "title": "Sàng lọc phôi của bạn bằng cách khai thác sức mạnh của genôm",
+      "file3DUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/dna_upgrades_0ef3305a76.spline"
+    },
+    "benefitSection": {
+      "id": 1,
+      "title": "Dễ tiếp cận, Dễ áp dụng, Phù hợp tài chính",
+      "description": "GenEmbryomics là công ty đầu tiên cung cấp một giải pháp có khả năng sàng lọc 100% các bệnh di truyền. Điều này cho phép phụ huynh, dưới sự hướng dẫn, có thể lựa chọn phôi tối ưu nhất để cấy ghép. Phụ huynh sẽ tự tin hơn với quá trình IVF thành công và sự yên tâm liên quan suốt đời.",
+      "reverse": false,
+      "buttonTitle": "Tìm hiểu thêm",
+      "buttonLink": null,
+      "image": [
+        {
+          "id": 22,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 23,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 24,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        }
+      ],
+      "buttonTitle": "Tìm hiểu thêm",
+      "buttonLink": null
+    },
+    "locale": "vi"
+  },
+  "pl": {
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
+      "title": "Sekwencjonowanie genomu embrionów dla metody in vitro (IVF)",
+      "description": "GenEmbryomics jest jedyną firmą oferującą kompleksowe badanie przesiewowe sekwencjonowania całego genomu dla embrionów stosowanych w metodzie in vitro. Zapewniamy rozwiązanie umożliwiające rodzicom i dostawcom usług podjęcie informowanych decyzji dotyczących wyboru embrionów, zmniejszając tym samym poleganie na czynnikach losowych.",
+      "buttonTitle": "Dowiedz się więcej",
+      "buttonLink": "string"
+    },
+    "simpleSection": {
+      "id": 1,
+      "title": "Prosta sekcja"
+    },
+    "processSection": [
+      {
+        "id": 2,
+        "title": "Choroby genetyczne mogą wpływać na embriony",
+        "description": "Metoda in vitro stale się rozwija, ale nadal występują nierozpoznane choroby genetyczne. 1 na 25 rodzin jest dotkniętych chorobami genetycznymi, a standardowe testy genetyczne przedimplantacyjne (PGT) rutynowo nie wykrywają 4 525 poważnych lub śmiertelnych chorób genetycznych.",
+        "reverse": false,
+        "image": [
+          {
+            "id": 39,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process1_d41fc43d45.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Specjalista od płodności wierzy w Embryo",
+        "description": "Oferujemy kompleksową sekwencjonowanie całego genomu (PGT-WGS) i interpretację genomu embrionów, abyś mógł podjąć świadome decyzje dotyczące przyszłości swojej rodziny.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 40,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process2_6c0ca4f542.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Jak uczynić metody in vitro wolnymi od chorób genetycznych",
+        "description": "GenEmbryomics jako pierwsza firma oferuje rozwiązanie umożliwiające przesiew 100% chorób genetycznych. Pozwala to rodzicom, przy odpowiednim wsparciu, na wybór optymalnego embrionu do implantacji. Rodzice zyskują większą pewność sukcesu metody in vitro oraz spokój na całe życie.",
+        "reverse": false,
+        "image": [
+          {
+            "id": 41,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process3_5820cea771.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Rozwiązanie zdolne do przesiewu 100% chorób genetycznych",
+        "description": "GenEmbryomics jako pierwsza firma oferuje rozwiązanie zdolne do przesiewu 100% chorób genetycznych. Pozwala to rodzicom, przy odpowiednim wsparciu, na wybór optymalnego embrionu do implantacji. Rodzice zyskują większą pewność sukcesu metody in vitro oraz spokój na całe życie.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 42,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process4_5fa57af696.png"
+          }
+        ]
+      }
+    ],
+    "galleryWithCenterTitleSection": {
+      "id": 1,
+      "description": "„Ukończyłem wsparcie ze strony mojej Firmy około roku temu. Ułatwili mi proces tworzenia prototypów, który stał się prostszy i szybszy. Uważam, że to najlepsza aplikacja do tworzenia prototypów”",
+      "authorName": "William Smith",
+      "authorTitle": "CEO firmy ZaVad",
+      "image": [
+        {
+          "id": 1,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb1_017f97e711.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb2_0a67707db4.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb3_61a4d67707.png"
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb4_2bf6ccbc42.png"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb5_669cebb8ea.png"
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb6_3d0df9d1b3.png"
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb7_a6b074c479.png"
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb8_47876922e5.png"
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right1_ab757c7d08.png"
+        },
+        {
+          "id": 10,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right2_8e714d502a.png"
+        },
+        {
+          "id": 11,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right3_eb3574f13b.png"
+        },
+        {
+          "id": 12,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right4_af4a975ebc.png"
+        },
+        {
+          "id": 13,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right5_bcd2ed91fa.png"
+        },
+        {
+          "id": 14,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right6_745fa93760.png"
+        }
+      ]
+    },
+    "formSubscribeSection": {
+      "id": 1,
+      "title": "Zapisz się teraz, aby uzyskać specjalne funkcje!",
+      "buttonTitle": "Zapisz",
+      "buttonLink": null
+    },
+    "meta": {
+      "id": 1,
+      "title": "Strona główna",
+      "description": "Strona główna",
+      "keywords": "strona główna",
+      "type": "witryna"
+    },
+    "section3d": {
+      "id": 1,
+      "title": "Skrzynka narzędziowa do analizy genomu embrionów",
+      "file3DUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/dna_upgrades_0ef3305a76.spline"
+    },
+    "benefitSection": {
+      "id": 1,
+      "title": "Dostępne, przystosowane, przystępne cenowo",
+      "description": "GenEmbryomics jako pierwsza firma oferuje rozwiązanie zdolne do przesiewu 100% chorób genetycznych. Pozwala to rodzicom, przy odpowiednim wsparciu, na wybór optymalnego embrionu do implantacji. Rodzice zyskują większą pewność sukcesu metody in vitro oraz spokój na całe życie.",
+      "reverse": false,
+      "buttonTitle": "Dowiedz się więcej",
+      "buttonLink": null,
+      "image": [
+        {
+          "id": 22,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 23,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 24,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        }
+      ],
+      "buttonTitle": "Dowiedz się więcej",
+      "buttonLink": null
+    },
+    "locale": "pl"
+  },
+  "el": {
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
+      "title": "Ακολουθήστε τη σειρά του γενετικού κώδικα των εμβρύων για την Τεχνική Εξωσωματικής Γονιμοποίησης (IVF)",
+      "description": "Η GenEmbryomics είναι η μοναδική εταιρεία που προσφέρει μια ολοκληρωμένη δοκιμασία ανίχνευσης σίτισης ολοκλονομικού γονιδιώματος για τα εμβρυακά σας IVF. Παρέχουμε μια λύση που δίνει εξουσία σε γονείς και παρόχους υπηρεσιών να κάνουν ενημερωμένες επιλογές εμβρύων, μειώνοντας την εξάρτηση από την τύχη.",
+      "buttonTitle": "Μάθετε περισσότερα",
+      "buttonLink": "string"
+    },
+    "simpleSection": {
+      "id": 1,
+      "title": "Απλή ενότητα"
+    },
+    "processSection": [
+      {
+        "id": 2,
+        "title": "Οι γενετικές ασθένειες μπορούν να επηρεάσουν τα έμβρυα",
+        "description": "Η Τεχνική Εξωσωματικής Γονιμοποίησης βελτιώνεται, αλλά ακόμα υπάρχουν αναγνωρισμένες γενετικές ασθένειες. Ένας στις 25 οικογένειες επηρεάζεται από γενετικές ασθένειες και 4.525 σοβαρές ή θανατηφόρες γενετικές ασθένειες δεν ανιχνεύονται συστηματικά από τις τυπικές γενετικές εξετάσεις προ-εμφύτευσης (PGT).",
+        "reverse": false,
+        "image": [
+          {
+            "id": 39,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process1_d41fc43d45.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Ο ειδικός στη γονιμότητα πιστεύει στο Embryo",
+        "description": "Παρέχουμε δράσιμη σίτιση ολοκλονομικού γονιδιώματος (PGT-WGS) και ερμηνεία του γονιδιώματος των εμβρύων σας, ώστε να μπορείτε να κάνετε ενημερωμένες αποφάσεις για το μέλλον της οικογένειάς σας.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 40,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process2_6c0ca4f542.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Πώς να καθιστήσετε την Τεχνική Εξωσωματικής Γονιμοποίησης απαλλαγμένη από γενετικές ασθένειες",
+        "description": "Η GenEmbryomics είναι η πρώτη που παρέχει μια λύση ικανή να ανιχνεύσει 100% των γενετικών ασθενειών. Αυτό επιτρέπει στους γονείς, υπό καθοδήγηση, να επιλέξουν τον πιο βέλτιστο έμβρυο για μεταμόσχευση. Οι γονείς έχουν έτετσια εμπιστοσύνη για μια επιτυχημένη Τεχνική Εξωσωματικής Γονιμοποίησης με τη συνοδεία της ψυχραιμίας για μια ολόκληρη ζωή.",
+        "reverse": false,
+        "image": [
+          {
+            "id": 41,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process3_5820cea771.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Μια λύση ικανή να ανιχνεύσει 100% των γενετικών ασθενειών",
+        "description": "Η GenEmbryomics είναι η πρώτη που παρέχει μια λύση ικανή να ανιχνεύσει 100% των γενετικών ασθενειών. Αυτό επιτρέπει στους γονείς, υπό καθοδήγηση, να επιλέξουν τον πιο βέλτιστο έμβρυο για μεταμόσχευση. Οι γονείς έχουν έτσια εμπιστοσύνη για μια επιτυχημένη Τεχνική Εξωσωματικής Γονιμοποίησης με τη συνοδεία της ψυχραιμίας για μια ολόκληρη ζωή.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 42,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process4_5fa57af696.png"
+          }
+        ]
+      }
+    ],
+    "galleryWithCenterTitleSection": {
+      "id": 1,
+      "description": "«Ολοκλήρωσα την υποστήριξη από την Εταιρεία μου περίπου πριν από ένα χρόνο. Έκαναν τη διαδικασία της προτύπωσης τόσο εύκολη και γρήγορη. Θεωρώ ότι είναι η καλύτερη εφαρμογή για την προτύπωση»",
+      "authorName": "William Smith",
+      "authorTitle": "Διευθύνων σύμβουλος της εταιρείας ZaVad",
+      "image": [
+        {
+          "id": 1,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb1_017f97e711.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb2_0a67707db4.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb3_61a4d67707.png"
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb4_2bf6ccbc42.png"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb5_669cebb8ea.png"
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb6_3d0df9d1b3.png"
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb7_a6b074c479.png"
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb8_47876922e5.png"
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right1_ab757c7d08.png"
+        },
+        {
+          "id": 10,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right2_8e714d502a.png"
+        },
+        {
+          "id": 11,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right3_eb3574f13b.png"
+        },
+        {
+          "id": 12,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right4_af4a975ebc.png"
+        },
+        {
+          "id": 13,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right5_bcd2ed91fa.png"
+        },
+        {
+          "id": 14,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right6_745fa93760.png"
+        }
+      ]
+    },
+    "formSubscribeSection":{
+      "id": 1,
+      "title": "Εγγραφείτε τώρα για να λάβετε ειδικά χαρακτηριστικά!",
+      "buttonTitle": "Υποβολή",
+      "buttonLink": null
+    },
+    "meta": {
+      "id": 1,
+      "title": "Αρχική σελίδα",
+      "description": "Αρχική σελίδα",
+      "keywords": "αρχική σελίδα",
+      "type": "ιστότοπος"
+    },
+    "section3d": {
+      "id": 1,
+      "title": "Σκρινάρετε τα έμβρυα αποκρυπτογραφώντας τη δύναμη του γονιδιώματος",
+      "file3DUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/dna_upgrades_0ef3305a76.spline"
+    },
+    "benefitSection": {
+      "id": 1,
+      "title": "Προσβάσιμο, προσαρμόσιμο, οικονομικό",
+      "description": "Η GenEmbryomics είναι η πρώτη που παρέχει μια λύση ικανή να ανιχνεύσει 100% των γενετικών ασθενειών. Αυτό επιτρέπει στους γονείς, υπό καθοδήγηση, να επιλέξουν τον πιο βέλτιστο έμβρυο για μεταμόσχευση. Οι γονείς έχουν έτσια εμπιστοσύνη για μια επιτυχημένη Τεχνική Εξωσωματικής Γονιμοποίησης με τη συνοδεία της ψυχραιμίας για μια ολόκληρη ζωή.",
+      "reverse": false,
+      "buttonTitle": "Μάθετε περισσότερα",
+      "buttonLink": null,
+      "image": [
+        {
+          "id": 22,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 23,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 24,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        }
+      ],
+      "buttonTitle": "Μάθετε περισσότερα",
+      "buttonLink": null
+    },
+    "locale": "el"
+  },
+  "fr": {
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
+      "title": "Séquençage du génome embryonnaire pour la FIV",
+      "description": "GenEmbryomics est la seule entreprise à proposer un test complet de dépistage du séquençage complet du génome pour vos embryons de FIV. Nous offrons une solution qui permet aux parents et aux prestataires de prendre des décisions éclairées concernant les embryons, réduisant ainsi la dépendance au hasard.",
+      "buttonTitle": "En savoir plus",
+      "buttonLink": "string"
+    },
+    "simpleSection": {
+      "id": 1,
+      "title": "Section simple"
+    },
+    "processSection": [
+      {
+        "id": 2,
+        "title": "Les maladies génétiques peuvent affecter vos embryons",
+        "description": "La FIV s'améliore, mais des maladies génétiques non diagnostiquées peuvent encore survenir. 1 famille sur 25 est touchée par des maladies génétiques, et 4 525 maladies génétiques graves ou mortelles sont régulièrement ignorées par les tests génétiques préimplantatoires standard (PGT).",
+        "reverse": false,
+        "image": [
+          {
+            "id": 39,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process1_d41fc43d45.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Les spécialistes de la fertilité croient en Embryo",
+        "description": "Nous proposons un séquençage complet du génome actif (PGT-WGS) et une interprétation du génome de vos embryons afin que vous puissiez prendre des décisions éclairées pour l'avenir de votre famille.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 40,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process2_6c0ca4f542.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Comment rendre la FIV exempte de maladies génétiques",
+        "description": "GenEmbryomics est la première à proposer une solution capable de dépister 100 % des maladies génétiques. Cela permet aux parents, sous guidance, de sélectionner l'embryon le plus optimal pour l'implantation. Les parents ont ainsi une confiance accrue en une FIV réussie avec la tranquillité d'esprit associée pour toute une vie.",
+        "reverse": false,
+        "image": [
+          {
+            "id": 41,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process3_5820cea771.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Une solution capable de dépister 100 % des maladies génétiques",
+        "description": "GenEmbryomics est la première à proposer une solution capable de dépister 100 % des maladies génétiques. Cela permet aux parents, sous guidance, de sélectionner l'embryon le plus optimal pour l'implantation. Les parents ont ainsi une confiance accrue en une FIV réussie avec la tranquillité d'esprit associée pour toute une vie.",
+        "reverse": true,
+        "image": [
+          {
+            "id": 42,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/process4_5fa57af696.png"
+          }
+        ]
+      }
+    ],
+    "galleryWithCenterTitleSection": {
+      "id": 1,
+      "description": "« J'ai terminé le support de mon Agence il y a environ 1 an. Ils ont rendu le processus de prototypage si facile et rapide. Je pense que c'est la meilleure application pour le prototypage »",
+      "authorName": "William Smith",
+      "authorTitle": "PDG de la société ZaVad",
+      "image": [
+        {
+          "id": 1,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb1_017f97e711.png"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb2_0a67707db4.png"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb3_61a4d67707.png"
+        },
+       {
+          "id": 4,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb4_2bf6ccbc42.png"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb5_669cebb8ea.png"
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb6_3d0df9d1b3.png"
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb7_a6b074c479.png"
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb8_47876922e5.png"
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right1_ab757c7d08.png"
+        },
+        {
+          "id": 10,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right2_8e714d502a.png"
+        },
+        {
+          "id": 11,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right3_eb3574f13b.png"
+        },
+        {
+          "id": 12,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right4_af4a975ebc.png"
+        },
+        {
+          "id": 13,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right5_bcd2ed91fa.png"
+        },
+        {
+          "id": 14,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage_Thumb_Right6_745fa93760.png"
+        }
+      ]
+    },
+    "formSubscribeSection": {
+      "id": 1,
+      "title": "Abonnez-vous maintenant pour obtenir des fonctionnalités spéciales !",
+      "buttonTitle": "Soumettre",
+      "buttonLink": null
+    },
+    "meta": {
+      "id": 1,
+      "title": "Page d'accueil",
+      "description": "Page d'accueil",
+      "keywords": "page d'accueil",
+      "type": "site web"
+    },
+    "section3d": {
+      "id": 1,
+      "title": "Analysez vos embryons en exploitant la puissance du génome",
+      "file3DUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/dna_upgrades_0ef3305a76.spline"
+    },
+    "benefitSection": {
+      "id": 1,
+      "title": "Accessible, adaptable, abordable",
+      "description": "GenEmbryomics est la première à proposer une solution capable de dépister 100 % des maladies génétiques. Cela permet aux parents, sous guidance, de sélectionner l'embryon le plus optimal pour l'implantation. Les parents ont ainsi une confiance accrue en une FIV réussie avec la tranquillité d'esprit associée pour toute une vie.",
+      "reverse": false,
+      "buttonTitle": "En savoir plus",
+      "buttonLink": null,
+      "image": [
+        {
+          "id": 22,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 23,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        },
+        {
+          "id": 24,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_Hompage_Benefit1_6c5f40c030.png"
+        }
+      ],
+      "buttonTitle": "En savoir plus",
+      "buttonLink": null
+    },
+    "locale": "fr"
+  }
+  
+}
