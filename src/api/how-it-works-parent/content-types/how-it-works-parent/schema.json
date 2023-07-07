@@ -18,7 +18,7 @@
   "attributes": {
     "theProductSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "system-kit.image-with-description-kit",
       "pluginOptions": {
         "i18n": {
@@ -28,7 +28,7 @@
     },
     "simpleTitleSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "system-kit.simple-title-kit",
       "pluginOptions": {
         "i18n": {
@@ -48,7 +48,7 @@
     },
     "simpleTitleWithSubSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "system-kit.simple-title-with-sub-tit",
       "pluginOptions": {
         "i18n": {
@@ -58,7 +58,7 @@
     },
     "contactSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "system-kit.simple-title-with-sub-tit-button",
       "pluginOptions": {
         "i18n": {

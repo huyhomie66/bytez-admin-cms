@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-06T21:02:20.150Z"
+    "x-generation-date": "2023-07-07T09:13:07.741Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -5882,16 +5882,10 @@
         "type": "object",
         "properties": {
           "theProductSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "simpleTitleSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
           },
           "listTitleSection": {
             "type": "array",
@@ -5900,16 +5894,10 @@
             }
           },
           "simpleTitleWithSubSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
           },
           "contactSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
           },
           "meta": {
             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
@@ -5935,16 +5923,10 @@
             "type": "object",
             "properties": {
               "theProductSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
               },
               "simpleTitleSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
               },
               "listTitleSection": {
                 "type": "array",
@@ -5953,16 +5935,10 @@
                 }
               },
               "simpleTitleWithSubSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
               },
               "contactSection": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
-                }
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
               },
               "meta": {
                 "$ref": "#/components/schemas/SystemKitSeoTagComponent"
@@ -6098,16 +6074,10 @@
         "type": "object",
         "properties": {
           "theProductSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitImageWithDescriptionKitComponent"
           },
           "simpleTitleSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleKitComponent"
           },
           "listTitleSection": {
             "type": "array",
@@ -6116,16 +6086,10 @@
             }
           },
           "simpleTitleWithSubSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitComponent"
           },
           "contactSection": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
-            }
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithSubTitButtonComponent"
           },
           "meta": {
             "$ref": "#/components/schemas/SystemKitSeoTagComponent"
