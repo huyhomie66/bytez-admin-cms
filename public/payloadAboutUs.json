@@ -1,0 +1,656 @@
+{
+  "en": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "Nick Murphy",
+        "title": "PhD Founder/CEO",
+        "description": "Nick is the founder of GenEmbryomics. He has dedicated his life to the study of genetics and its application in the field of assisted reproductive technologies, immunogenetics and polygenic risk. With 10 years of experience in the IVF field, he founded GenEmbryomics which "
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "Santiago Munné",
+        "title": "PhD Director",
+        "description": "PhD in Human Genetics from the University of Pittsburgh and a degree in Biology from the Autonomous University of Barcelona. CIO at Overture Life. Founder of: Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "Jennifer Lawrence",
+        "title": "Head of Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "Kyle Day",
+        "title": "Chief Technology Officer",
+        "description": "Eldar Dedic is a variant scientist with over 5 years of experience in helping clinicians prevent disorders by classifying DNA variants. Throughout his career, he has interpreted 2,000+ variants from 500+ genes according to the ACMG guidelines. Eldar has also "
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "Paul Viney Board",
+        "title": "Chairman",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "Feedback from Our Customers",
+        "description": "“I’ve  Went ot America from Tripp Play  about 1 years ago. Tripp make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "Our Mission",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "Awards, Affiliations and  Other accolades",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Our screening process is effortlessly arranged through the user-friendly GenEmbryomics patient portal. Collaborating with your doctor, we ensure a smooth collection and delivery of DNA "
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Our cutting-edge solution offers a remarkable reduction in weight, surpassing a factor of 100 less compared to traditional alternatives. Additionally, it comes with a cost-saving advantage,"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "The return on investment (ROI) for hospitals experiences a significant improvement, shrinking from over 10 years to an impressive 3-4 years. Our solution brings tangible financial benefit"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "en"
+  },
+  "vi": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "Nick Murphy",
+        "title": "Tiến sĩ, Người sáng lập/CEO",
+        "description": "Nick là người sáng lập của GenEmbryomics. Anh đã dành cả đời để nghiên cứu về di truyền học và ứng dụng của nó trong lĩnh vực công nghệ sinh sản hỗ trợ, di truyền miễn dịch và rủi ro đa gien. Với 10 năm kinh nghiệm trong lĩnh vực IVF, anh đã sáng lập GenEmbryomics"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "Santiago Munné",
+        "title": "Tiến sĩ, Giám đốc",
+        "description": "Tiến sĩ về Di truyền Nhân loại từ Đại học Pittsburgh và có bằng Cử nhân Sinh học từ Đại học Autonomous Barcelona. CIO tại Overture Life. Người sáng lập của: Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "Jennifer Lawrence",
+        "title": "Trưởng phòng hoạt động",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "Kyle Day",
+        "title": "Giám đốc Công nghệ",
+        "description": "Kyle Day là một nhà khoa học biến thể có hơn 5 năm kinh nghiệm trong việc giúp các bác sĩ chẩn đoán các rối loạn bằng cách phân loại biến thể DNA. Trong suốt sự nghiệp của mình, anh đã giải thích hơn 2,000 biến thể từ hơn 500 gene theo hướng dẫn của ACMG. Kyle cũng"
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "Paul Viney Board",
+        "title": "Chủ tịch",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "Phản hồi từ Khách hàng của chúng tôi",
+        "description": "“Tôi đã đi đến Mỹ từ Tripp Play khoảng 1 năm trước. Tripp làm quá trình tạo nguyên mẫu dễ dàng và nhanh chóng hơn. Tôi cảm thấy đây là ứng dụng tốt nhất để tạo nguyên mẫu”",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "Sứ mệnh của chúng tôi",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "Giải thưởng, Liên kết và Những vinh dự khác",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Quy trình sàng lọc của chúng tôi được sắp xếp một cách dễ dàng thông qua cổng thông tin GenEmbryomics thân thiện với người dùng. Hợp tác với bác sĩ của bạn, chúng tôi đảm bảo quá trình thu thập và giao nhận DNA trôi chảy"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Giải pháp tiên tiến của chúng tôi mang lại sự giảm cân đáng kể, vượt trội hơn hơn 100 lần so với các phương án truyền thống. Ngoài ra, nó còn mang lại lợi ích tiết kiệm chi phí,"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Lợi tức đầu tư (ROI) cho các bệnh viện có sự cải thiện đáng kể, từ hơn 10 năm xuống còn 3-4 năm ấn tượng. Giải pháp của chúng tôi mang lại lợi ích tài chính rõ ràng"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "vi"
+  },
+  "pl": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "Nick Murphy",
+        "title": "PhD Założyciel/CEO",
+        "description": "Nick jest założycielem GenEmbryomics. Poświęcił swoje życie na studiowanie genetyki i jej zastosowanie w dziedzinie wspomaganych technologii rozrodu, immunogenetyki i ryzyka poligenicznego. Posiada 10-letnie doświadczenie w dziedzinie rozrodu wspomaganego, a GenEmbryomics założył, aby"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "Santiago Munné",
+        "title": "PhD Dyrektor",
+        "description": "Doktor nauk humanistycznych z dziedziny genetyki z University of Pittsburgh i licencjat z biologii z Uniwersytetu Autonomicznego w Barcelonie. CIO w Overture Life. Założyciel: Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "Jennifer Lawrence",
+        "title": "Kierownik operacji",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "Kyle Day",
+        "title": "Dyrektor technologii",
+        "description": "Kyle Day to naukowiec w dziedzinie wariantów z ponad 5-letnim doświadczeniem w pomaganiu lekarzom w zapobieganiu zaburzeniom poprzez klasyfikację wariantów DNA. Przez całą swoją karierę zinterpretował ponad 2 000 wariantów z ponad 500 genów zgodnie z wytycznymi ACMG. Kyle"
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "Paul Viney Board",
+        "title": "Przewodniczący",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "Opinie naszych klientów",
+        "description": "„Wybrałem się do Ameryki z Tripp Play około rok temu. Tripp sprawia, że proces prototypowania jest łatwy i szybki. Uważam, że to najlepsza aplikacja do tworzenia prototypów”",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "Nasza Misja",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "Nagrody, Przynależności i Inne Wyróżnienia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Nasz proces skriningu jest łatwo dostępny poprzez przyjazny dla użytkownika portal pacjenta GenEmbryomics. Współpracując z lekarzem, zapewniamy sprawną kolekcję i dostarczenie DNA"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Nasze zaawansowane rozwiązanie oferuje znaczną redukcję wagi, przekraczającą o 100 razy tradycyjne alternatywy. Dodatkowo, wiąże się z oszczędnościami kosztowymi,"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Zwrot z inwestycji (ROI) dla szpitali znacząco się poprawia, zmniejszając się z ponad 10 lat do imponujących 3-4 lat. Nasze rozwiązanie przynosi namacalne korzyści finansowe"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "pl"
+  },
+  "el": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "Νίκος Μέρφι",
+        "title": "Διδάκτορας Ιδρυτής/Διευθυντής Εκτελεστικός",
+        "description": "Ο Νίκος είναι ο ιδρυτής της GenEmbryomics. Έχει αφιερώσει τη ζωή του στη μελέτη της γενετικής και την εφαρμογή της στον τομέα των βοηθητικών αναπαραγωγικών τεχνολογιών, της ανοσογενετικής και του πολυγονικού κινδύνου. Με 10 χρόνια εμπειρίας στον τομέα της Τεχνητής Γονιμοποίησης, ιδρύθηκε η GenEmbryomics που"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "Σαντιάγκο Μούνι",
+        "title": "Διδάκτορας Διευθυντής",
+        "description": "Διδάκτορας στην Ανθρώπινη Γενετική από το Πανεπιστήμιο του Pittsburgh και πτυχίο στη Βιολογία από το Αυτόνομο Πανεπιστήμιο της Βαρκελώνης. CIO στο Overture Life. Ιδρυτής των: Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "Τζένιφερ Λόρενς",
+        "title": "Υπεύθυνη Λειτουργιών",
+        "description": "Λόρεμ ιψουμ δολορ σιτ αμετ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ"
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "Κάιλ Ντέι",
+        "title": "Κεντρικός Αξιωματούχος Τεχνολογίας",
+        "description": "Ο Κάιλ Ντέι είναι επιστήμονας παραλλαγής με πάνω από 5 χρόνια εμπειρίας στη βοήθεια των κλινικών για την πρόληψη διαταραχών μέσω της ταξινόμησης των παραλλαγών του DNA. Σε όλη την καριέρα του, έχει ερμηνεύσει πάνω από 2,000 παραλλαγές από πάνω από 500 γονίδια σύμφωνα με τις οδηγίες του ACMG. Ο Κάιλ"
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "Πολ Βίνεϊ Μπορντ",
+        "title": "Πρόεδρος",
+        "description": "Λόρεμ ιψουμ δολορ σιτ αμετ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ"
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "Ανατροφοδότηση από τους Πελάτες μας",
+        "description": "“Πήγα στην Αμερική από το Tripp Play περίπου πριν από 1 χρόνο. Το Tripp καθιστά τη διαδικασία πρωτότυπης αναπαραγωγής τόσο εύκολη και γρήγορη. Νιώθω ότι είναι η καλύτερη εφαρμογή για τη χρήση του πρωτοτύπου”",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "Η Αποστολή μας",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Λόρεμ ιψουμ δολορ σιτ αμετ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Λόρεμ ιψουμ δολορ σιτ αμετ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "Βραβεία, Συνεργασίες και Άλλες Διακρίσεις",
+      "description": "Λόρεμ ιψουμ δολορ σιτ αμετ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ, σεδ δο ειυσμοδ τεμπορ ινκιδιδντ ηθτ",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Η διαδικασία σκρίνινγκ μας οργανώνεται εύκολα μέσω της φιλικής προς τον χρήστη πύλης ασθενούς της GenEmbryomics. Συνεργαζόμενοι με τον γιατρό σας, διασφαλίζουμε μια ομαλή συλλογή και παράδοση του DNA"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Η προηγμένη λύση μας προσφέρει μια εντυπωσιακή μείωση του βάρους, ξεπερνώντας κατά πολλαπλάσιο τις παραδοσιακές εναλλακτικές. Επιπλέον, συνοδεύεται από οικονομικό πλεονέκτημα,"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Το αποτέλεσμα επένδυσης (ROI) για τα νοσοκομεία βελτιώνεται σημαντικά, μειώνοντας από πάνω από 10 χρόνια σε εντυπωσιακά 3-4 χρόνια. Η λύση μας φέρνει συγκεκριμένο οικονομικό όφελος"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "el"
+  },
+  "fr": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "Nick Murphy",
+        "title": "PhD Fondateur/Directeur Général",
+        "description": "Nick est le fondateur de GenEmbryomics. Il a consacré sa vie à l'étude de la génétique et à son application dans le domaine des technologies de reproduction assistée, de l'immunogénétique et des risques polygéniques. Avec 10 ans d'expérience dans le domaine de la FIV, il a fondé GenEmbryomics qui"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "Santiago Munné",
+        "title": "PhD Directeur",
+        "description": "PhD en génétique humaine de l'Université de Pittsburgh et diplômé en biologie de l'Université autonome de Barcelone. CIO chez Overture Life. Fondateur de : Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "Jennifer Lawrence",
+        "title": "Responsable des opérations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "Kyle Day",
+        "title": "Directeur de la technologie",
+        "description": "Kyle Day est un scientifique des variants avec plus de 5 ans d'expérience dans l'aide aux cliniciens pour prévenir les troubles en classifiant les variants de l'ADN. Tout au long de sa carrière, il a interprété plus de 2 000 variants de plus de 500 gènes selon les directives de l'ACMG. Kyle a également"
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "Paul Viney Board",
+        "title": "Président",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "Avis de nos clients",
+        "description": "« Je suis allé en Amérique avec Tripp Play il y a environ un an. Tripp rend le processus de prototypage facile et rapide. Je pense que c'est la meilleure application pour le prototypage »",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "Notre Mission",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "Prix, Affiliations et Autres Récompenses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Notre processus de dépistage est facilement organisé via le portail convivial pour les patients de GenEmbryomics. En collaboration avec votre médecin, nous nous assurons une collecte et une livraison fluides de l'ADN"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Notre solution de pointe offre une réduction remarquable du poids, dépassant de 100 fois les alternatives traditionnelles. De plus, elle présente un avantage économique,"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Le retour sur investissement (ROI) pour les hôpitaux connaît une amélioration significative, passant de plus de 10 ans à un impressionnant 3-4 ans. Notre solution apporte des avantages financiers tangibles"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "fr"
+  },
+  "th": {
+    "theTeamMemberSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_2_78e57028f4.png",
+        "memberName": "นิค เมอร์ฟี",
+        "title": "ผู้ก่อตั้ง/ประธานเจ้าหน้าที่บริหาร",
+        "description": "นิคเป็นผู้ก่อตั้งของ GenEmbryomics และมีชีวิตที่ผ่านการศึกษาในสาขาพันธุศาสตร์และการประยุกต์ใช้ในด้านเทคโนโลยีการผสมพันธุ์ช่วยการเจริญพันธุ์ การศึกษาภาวะภูมิคุ้มกันทางพันธุกรรมและความเสี่ยงแพร่กระจายทางพันธุกรรมหลายด้วยกัน ด้วยประสบการณ์ที่มีมากถึง 10 ปีในสายงานการผสมพันธุ์ระบบปลอดเชื้อ นิคได้ก่อตั้ง GenEmbryomics"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Group_9_3_ca40a98a4d.png",
+        "memberName": "ซันติอาโก มันเน",
+        "title": "กรรมการผู้จัดการ",
+        "description": "เจ้าหน้าที่บริหารงานวิจัย สาขาพันธุกรรมมนุษย์จากมหาวิทยาลัยพิตต์สเบิร์กและปริญญาเอกในวิทยาศาสตร์ชีววิทยาจากมหาวิทยาลัยออตอนอมัตถ์ ผู้บริหารที่เกี่ยวข้องกับ Overture Life และเป็นผู้ก่อตั้งของ Reprogenetics, Recombine, Phosphorus, MedAnswers, Overture Life, G1"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member3_b278be5ad0.png",
+        "memberName": "เจนนิเฟอร์ ลอเรนซ์",
+        "title": "หัวหน้าฝ่ายปฏิบัติการ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "id": 4,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Member4_199e8626c3.png",
+        "memberName": "ไคล์ เดย์",
+        "title": "หัวหน้าฝ่ายเทคโนโลยี",
+        "description": "ไคล์ เดย์เป็นนักวิทยาศาสตร์เชี่ยวชาญในการวิเคราะห์ตัวแปรทางพันธุกรรมที่มีประสบการณ์มากกว่า 5 ปีในการช่วยคลินิกป้องกันอาการผิดปกติโดยการจัดกลุ่มตัวแปรเอดีเอ็น ตลอดชีวิตการงานของเขา เขาได้แปลกำหนดตัวแปรกว่า 2,000 ตัวจาก 500+ ยีนตามแนวทางของ ACMG และเขายัง"
+      },
+      {
+        "id": 5,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us6_f4e747697b.png",
+        "memberName": "พอล ไวน์ บอร์ด",
+        "title": "ประธานกรรมการ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ],
+    "feedbackSection": [
+      {
+        "id": 6,
+        "title": "ความคิดเห็นจากลูกค้าของเรา",
+        "description": "« ฉันไปเที่ยวอเมริกากับ Tripp Play เมื่อประมาณ 1 ปีที่แล้ว การใช้ Tripp ทำให้กระบวนการสร้างต้นแบบง่ายและเร็วขึ้น ฉันรู้สึกว่านี่เป็นแอปที่ดีที่สุดสำหรับการสร้างต้นแบบ »",
+        "reverse": false,
+        "image": [
+          {
+            "id": 37,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          },
+          {
+            "id": 38,
+            "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/thumbnail_About_Us7_003030e236.png"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "banner": {
+      "id": 1,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Frame_47544_ab812ef7ca.png",
+      "title": "พันธกิจของเรา",
+      "cardSection": [
+        {
+          "id": 1,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        },
+        {
+          "id": 2,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Hand_Heart_a1fdec2fd0.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        }
+      ]
+    },
+    "frequentlyAskedQuestion": [],
+    "awardSection": {
+      "id": 1,
+      "title": "รางวัล, สมาคม และความยินยอมอื่นๆ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": [
+        {
+          "id": 25,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/JULIUS_BERGER_c5d3eb67fd.png"
+        }
+      ]
+    },
+    "highlightSection": [
+      {
+        "id": 1,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "กระบวนการคัดกรองของเราจัดเตรียมอย่างง่ายผ่านพอร์ทัลผู้ป่วย GenEmbryomics ที่ใช้งานง่ายต่อผู้ใช้ ด้วยการทำงานร่วมกับแพทย์ของคุณ เราสร้างความราบรื่นในการเก็บรวบรวมและส่งมอบเอ็มเบรีย"
+      },
+      {
+        "id": 2,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "สิ่งที่เรามอบให้คือการลดน้ำหนักอย่างมหาศาลซึ่งมีประสิทธิภาพมากกว่า 100 เท่าเมื่อเปรียบเทียบกับทางเลือกที่เป็นแบบดั้งเดิม นอกจากนี้ยังมีข้อได้เปรียบในเรื่องการประหยัดค่าใช้จ่าย"
+      },
+      {
+        "id": 3,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "ระยะเวลากำไรต่อรายการลงทุน (ROI) สำหรับโรงพยาบาลมีการปรับปรุงอย่างมีนัยสำคัญ ลดลงจากกว่า 10 ปีเหลือเพียง 3-4 ปีที่น่าประทับใจ สิ่งที่เรานำเสนอนั้นนำมาสู่ประโยชน์ทางการเงินที่เป็นเชิงพร้อมเพียงแล้ว"
+      }
+    ],
+    "formSubscribeSection": null,
+    "locale": "th"
+  }
+}

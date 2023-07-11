@@ -1,0 +1,758 @@
+{
+  "en": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "The GenomeScreen Test",
+      "description": "The GenomeScreen tests have a specificity and accuracy of 99.99% for inherited diseases. We are also able to detect 79% of De novo mutations. This pre-implantation screening is thorough enough to uncover the presence of genetic mutations which may result in future complications or inherited disease.",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "As simple as 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "DNA Collected",
+        "description": "IVF Clinic collects the DNA samples from parent donors and the embryo trophectoderm cells and sends the samples to the lab"
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "DNA Collected",
+        "description": "Lab provides whole genome sequencing for the DNA samples and uploads the FASTQ files for each sample to the GenEmbryomics HIPAA comoliant cloud server"
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Cloud Bioinformatics",
+        "description": "Mapping sequences into a BAM file Short variant calling CNV calling Repeat Expansion calling"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Clinical Report",
+        "description": "The test report is sent to IVI clinic for IVF doctor to inform patients about the genetic health of the embryo"
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Variant Curation",
+        "description": "The data is curated by a variant curator and reported with a clinical geneticist."
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Our screening process is effortlessly arranged through the user-friendly GenEmbryomics patient portal. Collaborating with your doctor, we ensure a smooth collection and delivery of DNA "
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Our cutting-edge solution offers a remarkable reduction in weight, surpassing a factor of 100 less compared to traditional alternatives. Additionally, it comes with a cost-saving advantage,"
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "The return on investment (ROI) for hospitals experiences a significant improvement, shrinking from over 10 years to an impressive 3-4 years. Our solution brings tangible financial benefit"
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "How it works fot Clinics Headline here",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "Our passion is turning dreams of a happy, healthy family into reality at GenEmbryomics. We fully support your decision-making for IVF patients, prioritizing their well-being throughout the process."
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "While standard IVF screening detects predicted genetic abnormalities, it may miss unexpected abnormalities or De novo SNP mutations. As pioneers in whole genome sequencing, GenEmbryomics provides advanced solutions, enabling informed decisions and exceptional care."
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "Key Highlights",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "Ultra-compact, high performance laser will boost access to treatment for 70% of cancer inductions treated with protons can benefit over 2 million new patients annuallyaaaaaaaaa"
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "Our new business model aims to increase ARR, enhance production economics, and expand patient access beyond large hospitals."
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "We have strategic partnerships with Proton International and Thales, along with IBA."
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "Foundation funding for US proton therapy centres; R&D collaboration with CERN in Geneva"
+        }
+      ]
+    },
+    "locale": "en"
+  },
+  "vi": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "Bài kiểm tra GenomeScreen",
+      "description": "Các bài kiểm tra GenomeScreen có độ chính xác và độ đặc hiệu lên đến 99,99% đối với các bệnh di truyền. Chúng tôi cũng có thể phát hiện 79% các đột biến De novo. Bài kiểm tra trước cấy phôi này đủ kỹ lưỡng để phát hiện sự hiện diện của các đột biến di truyền có thể gây ra biến chứng hoặc bệnh di truyền trong tương lai.",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "Đơn giản như 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "Thu thập DNA",
+        "description": "Phòng khám IVF thu thập mẫu DNA từ các bộ phận mang bố mẹ và tế bào bao phôi trophectoderm và gửi mẫu đến phòng thí nghiệm"
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "Thu thập DNA",
+        "description": "Phòng thí nghiệm cung cấp việc xếp chồng toàn bộ gen cho các mẫu DNA và tải lên các tệp FASTQ cho mỗi mẫu lên máy chủ đám mây tuân thủ HIPAA của GenEmbryomics"
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Cloud Bioinformatics",
+        "description": "Biến đổi các chuỗi thành tệp BAM Gọi biến thể ngắn Gọi biến thể CNV Gọi biến đổi mở rộng"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Báo cáo lâm sàng",
+        "description": "Báo cáo kiểm tra được gửi đến phòng khám IVF để bác sĩ IVF thông báo cho bệnh nhân về sức khỏe di truyền của phôi"
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Sàng lọc biến thể",
+        "description": "Dữ liệu được sàng lọc bởi một người sàng lọc biến thể và được báo cáo kèm theo một chuyên gia di truyền lâm sàng."
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Quá trình sàng lọc của chúng tôi được tổ chức một cách dễ dàng thông qua cổng thông tin bệnh nhân thân thiện với người dùng GenEmbryomics. Hợp tác với bác sĩ của bạn, chúng tôi đảm bảo thu thập và giao DNA diễn ra trơn tru."
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Giải pháp tiên tiến của chúng tôi mang lại sự giảm trọng lượng đáng kể, vượt qua hơn 100 lần so với các phương pháp truyền thống. Bên cạnh đó, nó còn mang lại lợi ích về tiết kiệm chi phí,"
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Tỷ suất đầu tư (ROI) cho các bệnh viện có trải nghiệm cải thiện đáng kể, từ hơn 10 năm giảm xuống còn 3-4 năm ấn tượng. Giải pháp của chúng tôi mang lại lợi ích tài chính đáng kể"
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "Cách hoạt động cho phòng khám Tiêu đề ở đây",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "Đam mê của chúng tôi là biến những giấc mơ về một gia đình hạnh phúc và khỏe mạnh thành hiện thực tại GenEmbryomics. Chúng tôi hoàn toàn hỗ trợ quyết định của bạn cho bệnh nhân IVF, ưu tiên sức khỏe của họ trong suốt quá trình."
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "Trong khi sàng lọc IVF tiêu chuẩn phát hiện các bất thường di truyền dự đoán, nó có thể bỏ sót các bất thường không mong đợi hoặc đột biến SNP De novo. Là người tiên phong trong việc xếp chồng toàn bộ gen, GenEmbryomics cung cấp các giải pháp tiên tiến, giúp đưa ra quyết định thông thái và chăm sóc đặc biệt."
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "Điểm nổi bật",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "Ultra-compact, high performance laser sẽ thúc đẩy việc tiếp cận điều trị cho 70% các trường hợp ung thư được điều trị bằng proton có thể mang lại lợi ích cho hơn 2 triệu bệnh nhân mới hàng năm"
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "Mô hình kinh doanh mới của chúng tôi nhằm tăng doanh thu hàng năm, nâng cao kinh tế sản xuất và mở rộng quyền truy cập của bệnh nhân ngoài các bệnh viện lớn."
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "Chúng tôi có các đối tác chiến lược với Proton International và Thales, cùng với IBA."
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "Quỹ tài trợ cho các trung tâm điều trị proton tại Hoa Kỳ; Hợp tác nghiên cứu phát triển với CERN ở Geneva"
+        }
+      ]
+    },
+    "locale": "vi"
+  },
+  "pl": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "Test GenomeScreen",
+      "description": "Testy GenomeScreen mają specyficzność i dokładność wynoszące 99,99% dla chorób dziedzicznych. Jest również możliwe wykrycie 79% mutacji de novo. To przesiewowe badanie przedimplantacyjne jest wystarczająco dokładne, aby wykryć obecność mutacji genetycznych, które mogą prowadzić do przyszłych powikłań lub chorób dziedzicznych.",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "Tak proste jak 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "Zbieranie DNA",
+        "description": "Klinika IVF zbiera próbki DNA od dawców rodziców i komórek trofektodermowych zarodka, a następnie wysyła je do laboratorium"
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "Zbieranie DNA",
+        "description": "Laboratorium wykonuje sekwencjonowanie całego genomu dla próbek DNA i przesyła pliki FASTQ dla każdej próbki na bezpieczny serwer GenEmbryomics zgodny z wymogami HIPAA"
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Bioinformatyka w chmurze",
+        "description": "Mapowanie sekwencji na plik BAM Wywoływanie wariantów krótkich Wywoływanie wariantów CNV Wywoływanie ekspansji powtórzeń"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Raport kliniczny",
+        "description": "Raport z badania jest wysyłany do kliniki IVF, aby lekarz IVF mógł poinformować pacjentów o zdrowiu genetycznym embrionu"
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Kuracja wariantów",
+        "description": "Dane są weryfikowane przez kuratora wariantów i raportowane przez genetyka klinicznego."
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Nasz proces przesiewowy jest łatwo organizowany za pośrednictwem przyjaznego użytkownikowi portalu pacjenta GenEmbryomics. Współpracując z lekarzem, zapewniamy płynne zbieranie i dostarczanie DNA"
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Nasze innowacyjne rozwiązanie oferuje znaczącą redukcję wagi, przekraczającą o ponad 100 razy tradycyjne metody. Dodatkowo, wiąże się z oszczędnością kosztów,"
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Zwrot z inwestycji (ROI) dla szpitali znacząco się poprawia, skracając się z ponad 10 lat do imponujących 3-4 lat. Nasze rozwiązanie przynosi wymierne korzyści finansowe"
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "Jak to działa dla Klinik Tytuł tutaj",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "Naszą pasją jest zamienianie marzeń o szczęśliwej, zdrowej rodzinie w rzeczywistość w GenEmbryomics. W pełni wspieramy decyzje dotyczące pacjentów IVF, priorytetowo traktując ich dobro przez cały proces."
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "Podczas gdy standardowe badanie IVF wykrywa przewidywane nieprawidłowości genetyczne, może pomijać nieoczekiwane nieprawidłowości lub mutacje SNP de novo. Jako pionierzy w sekwencjonowaniu całego genomu, GenEmbryomics oferuje zaawansowane rozwiązania, umożliwiając podjęcie świadomych decyzji i zapewnienie wyjątkowej opieki."
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "Najważniejsze punkty",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "Ultra-kompaktowy, wydajny laser przyspieszy dostęp do leczenia dla 70% przypadków indukcji raka leczonych protonami i może przynieść korzyści ponad 2 milionom nowych pacjentów rocznie"
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "Nowy model biznesowy ma na celu zwiększenie ARR, poprawę ekonomiki produkcji i rozszerzenie dostępu pacjentów poza dużymi szpitalami."
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "Mamy strategiczne partnerstwa z Proton International i Thales, wraz z IBA."
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "Finansowanie fundacji dla amerykańskich ośrodków terapii protonowej; Współpraca badawcza z CERN w Genewie"
+        }
+      ]
+    },
+    "locale": "pl"
+  },
+  "el": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "Το τεστ GenomeScreen",
+      "description": "Τα τεστ GenomeScreen έχουν ειδικότητα και ακρίβεια 99,99% για κληρονομούμενες ασθένειες. Μπορούμε επίσης να ανιχνεύσουμε το 79% των μεταλλάξεων De novo. Αυτός ο προ-εμφυτευτικός έλεγχος είναι τόσο λεπτομερής ώστε να αποκαλύπτει την παρουσία γενετικών μεταλλάξεων που μπορεί να οδηγήσουν σε μελλοντικά επιπλοκές ή κληρονομούμενες ασθένειες.",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "Όσο απλό όσο 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "Συλλογή του DNA",
+        "description": "Η κλινική IVF συλλέγει τα δείγματα DNA από τους γονείς δότες και τα κύτταρα της τροφεκτοδέρμης του εμβρύου και στέλνει τα δείγματα στο εργαστήριο."
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "Συλλογή του DNA",
+        "description": "Το εργαστήριο παρέχει ολοκληρωμένη αλληλουχία πλήρους γονιδιώματος για τα δείγματα DNA και μεταφορτώνει τα αρχεία FASTQ για κάθε δείγμα στον ασφαλή διακομιστή GenEmbryomics που συμμορφώνεται με τον Νόμο Προστασίας Προσωπικών Δεδομένων (HIPAA)."
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Βιοπληροφορική Στο Νέφος",
+        "description": "Καταγραφή αλληλουχίας σε αρχείο BAM Ανίχνευση μικρών παραλλαγών Ανίχνευση CNV Ανίχνευση επαναλαμβανόμενης επέκτασης"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Κλινική Αναφορά",
+        "description": "Η έκθεση ελέγχου αποστέλλεται στην κλινική IVF για να ενημερωθούν οι ασθενείς από τον ιατρό IVF για τη γενετική υγεία του εμβρύου."
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Καμπύλη Παραλλαγής",
+        "description": "Τα δεδομένα επιμελείται ένας επιμελητής παραλλαγής και αναφέρονται με έναν κλινικό γενετιστή."
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Η διαδικασία μας για τον έλεγχο είναι οργανωμένη με ευκολία μέσω της φιλικής προς τον χρήστη πύλης ασθενούς GenEmbryomics. Συνεργαζόμενοι με τον γιατρό σας, εξασφαλίζουμε μια ομαλή συλλογή και παράδοση του DNA."
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Η προηγμένη λύση μας προσφέρει μια εντυπωσιακή μείωση του βάρους, υπερβαίνοντας κατά πολλές τάξεις μια παραδοσιακή εναλλακτική λύση. Επιπλέον, προσφέρει οικονομικό πλεονέκτημα και εξοικονόμηση κόστους."
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Η απόδοση της επένδυσης (ROI) για τα νοσοκομεία βελτιώνεται σημαντικά, μειώνοντας από πάνω από 10 χρόνια σε 3-4 εντυπωσιακά χρόνια. Η λύση μας φέρνει συγκεκριμένο οικονομικό όφελος."
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "Πώς λειτουργεί για τις κλινικές - Τίτλος εδώ",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "Ο πάθος μας είναι να μετατρέπουμε τα όνειρα μιας ευτυχισμένης και υγιούς οικογένειας σε πραγματικότητα στο GenEmbryomics. Υποστηρίζουμε πλήρως τη λήψη αποφάσεων για τους ασθενείς IVF, δίνοντας προτεραιότητα στην ευεξία τους καθ' όλη τη διαδικασία."
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "Ενώ η τυπική έλεγχος IVF ανιχνεύει προβλεπόμενες γενετικές ανωμαλίες, μπορεί να παραλείψει απροσδόκητες ανωμαλίες ή μεταλλάξεις De novo SNP. Ως πρωτοπόροι στην ολογονομική αλληλουχία, το GenEmbryomics παρέχει προηγμένες λύσεις που δίνουν τη δυνατότητα ενημερωμένων αποφάσεων και εξαίρετης φροντίδας."
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "Σημαντικά Σημεία",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "Το υπερσυμπαγές, υψηλής απόδοσης λέιζερ θα ενισχύσει την πρόσβαση σε θεραπεία για το 70% των καρκινογόνων παραγόντων που αντιμετωπίζονται με πρωτόνια, μπορώντας να επωφεληθούν πάνω από 2 εκατομμύρια νέοι ασθενείς ετησίως."
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "Το νέο μας μοντέλο επιχείρησης στοχεύει στην αύξηση του ARR, τη βελτίωση της οικονομικής παραγωγής και τη διεύρυνση της πρόσβασης των ασθενών πέρα από τα μεγάλα νοσοκομεία."
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "Έχουμε στρατηγικές εταιρικές σχέσεις με την Proton International και τη Thales, μαζί με την IBA."
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "Χρηματοδότηση ιδρυτή για αμερικανικά κέντρα πρωτονοθεραπείας. Συνεργασία έρευνας και ανάπτυξης με το CERN στη Γενεύη."
+        }
+      ]
+    },
+    "locale": "el"
+  },
+  "fr": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "Le test GenomeScreen",
+      "description": "Les tests GenomeScreen ont une spécificité et une précision de 99,99% pour les maladies héréditaires. Nous sommes également capables de détecter 79% des mutations De novo. Ce dépistage préimplantatoire est suffisamment approfondi pour découvrir la présence de mutations génétiques qui pourraient entraîner des complications futures ou des maladies héréditaires.",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "Aussi simple que 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "ADN Collecté",
+        "description": "La clinique de FIV recueille les échantillons d'ADN des donneurs parentaux et des cellules trophectodermiques de l'embryon, puis les envoie au laboratoire."
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "ADN Collecté",
+        "description": "Le laboratoire effectue le séquençage complet du génome pour les échantillons d'ADN et télécharge les fichiers FASTQ pour chaque échantillon sur le serveur cloud GenEmbryomics conforme à la norme HIPAA."
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Bioinformatique en Nuage",
+        "description": "Mapping des séquences dans un fichier BAM Appel de variantes courtes Appel de variantes CNV Appel d'expansion de répétitions"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Rapport Clinique",
+        "description": "Le rapport de test est envoyé à la clinique de FIV pour que le médecin de FIV informe les patients sur la santé génétique de l'embryon."
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "Curation des Variantes",
+        "description": "Les données sont curées par un conservateur de variantes et rapportées avec un généticien clinique."
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "Notre processus de dépistage est facilement organisé via le portail patient convivial de GenEmbryomics. En collaboration avec votre médecin, nous assurons une collecte et une livraison fluides de l'ADN."
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "Notre solution de pointe offre une réduction remarquable du poids, dépassant d'un facteur de 100 les alternatives traditionnelles. De plus, elle présente un avantage économique."
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "Le retour sur investissement (ROI) pour les hôpitaux connaît une amélioration significative, passant de plus de 10 ans à 3-4 ans impressionnants. Notre solution apporte un avantage financier tangible."
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "Comment ça fonctionne pour les Cliniques Titre ici",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "Notre passion est de concrétiser les rêves d'une famille heureuse et en bonne santé chez GenEmbryomics. Nous soutenons pleinement vos décisions pour les patients de FIV, en accordant la priorité à leur bien-être tout au long du processus."
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "Alors que le dépistage standard de la FIV détecte les anomalies génétiques prévues, il peut passer à côté des anomalies inattendues ou des mutations SNP de novo. En tant que pionniers de la séquençage complet du génome, GenEmbryomics propose des solutions avancées, permettant de prendre des décisions éclairées et offrant des soins exceptionnels."
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "Points Forts",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "Ultra-compact, le laser haute performance améliorera l'accès au traitement pour 70% des cas d'induction du cancer traités par des protons et pourra bénéficier à plus de 2 millions de nouveaux patients chaque année."
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "Notre nouveau modèle commercial vise à augmenter l'ARR, améliorer l'économie de production et élargir l'accès des patients au-delà des grands hôpitaux."
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "Nous avons des partenariats stratégiques avec Proton International et Thales, ainsi qu'avec IBA."
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "Financement de fondation pour les centres de thérapie protonique aux États-Unis ; Collaboration en R&D avec le CERN à Genève"
+        }
+      ]
+    },
+    "locale": "fr"
+  },
+  "th": {
+    "imagewithDescSection": {
+      "id": 8,
+      "title": "ทดสอบ GenomeScreen",
+      "description": "การทดสอบ GenomeScreen มีความเฉพาะเจาะจงและความแม่นยำถึง 99.99% สำหรับโรคที่ถ่ายทอดต่อมา นอกจากนี้เรายังสามารถตรวจพบการกลายพันธุ์ De novo 79% การคัดกรองก่อนฝังไข่นี้เพียงพอเพื่อค้นหาการกลายพันธุ์ที่อาจเกิดปัญหาในอนาคตหรือโรคที่ถ่ายทอดต่อได้",
+      "reverse": false,
+      "image": [
+        {
+          "id": 34,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 35,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        },
+        {
+          "id": 36,
+          "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
+        }
+      ]
+    },
+    "simpleTitleSection": {
+      "id": 4,
+      "title": "ง่ายเหมือน 1,2,3"
+    },
+    "simpleToSection": [
+      {
+        "id": 7,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic1_97ea036a8d.png",
+        "title": "เก็บตัวอย่าง DNA",
+        "description": "คลินิกการผสมเทียมเก็บตัวอย่าง DNA จากผู้บริจาคพ่อแม่และเซลล์ต่อประสาทของตัวอ่อนและส่งตัวอย่างไปที่ห้องปฏิบัติการ"
+      },
+      {
+        "id": 8,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Simple_As_HIW_1_632a4bf063.png",
+        "title": "เก็บตัวอย่าง DNA",
+        "description": "ห้องปฏิบัติการให้บริการการส่งลำดับสมบูรณ์ของเยี่ยมชม DNA และอัปโหลดไฟล์ FASTQ สำหรับแต่ละตัวอย่างไปยังเซิร์ฟเวอร์คลาวด์ GenEmbryomics ที่ปฏิบัติตามมาตรฐาน HIPAA"
+      },
+      {
+        "id": 10,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "ไบโออินฟอร์แมติกส์ในคลาวด์",
+        "description": "การแมปลำดับเข้ากับไฟล์ BAM การเรียกเกิดคำแปลกฏแบบสั้น การเรียกเกิดคำแปลกฏ CNV การเรียกเกิดการขยายซ้ำ"
+      },
+      {
+        "id": 11,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "รายงานคลินิก",
+        "description": "รายงานการทดสอบถูกส่งให้คลินิกการผสมเทียมเพื่อแพทย์ผู้ทำการผสมเทียมแจ้งผู้ป่วยเกี่ยวกับสุขภาพพันธุกรรมของตัวอ่อน"
+      },
+      {
+        "id": 12,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic3_ba8d452dc4.png",
+        "title": "ตรวจสอบความแปรปรวน",
+        "description": "ข้อมูลถูกตรวจสอบโดยผู้ตรวจสอบความแปรปรวนและรายงานกับนักพันธุศาสตร์คลินิก"
+      }
+    ],
+    "benefitSection": [
+      {
+        "id": 9,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight1_49f31d0113.png",
+        "title": null,
+        "description": "กระบวนการคัดกรองของเราเรียบง่ายที่จัดการผ่านพอร์ทัลผู้ป่วย GenEmbryomics ที่ใช้งานง่าย ร่วมงานกับแพทย์ของคุณเพื่อให้การเก็บรวบรวมและการส่งตัวอย่าง DNA เป็นไปอย่างราบรื่น"
+      },
+      {
+        "id": 13,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight2_9c45f55c83.png",
+        "title": null,
+        "description": "สิ่งที่เรานำเสนอใหม่นี้มีการลดน้ำหนักที่น่าประหลาดใจ มากกว่า 100 เท่าเมื่อเปรียบเทียบกับทางเลือก传统 นอกจากนี้ยังมีข้อได้เปรียบในเรื่องการประหยัดต้นทุน"
+      },
+      {
+        "id": 14,
+        "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Highlight3_745a87767f.png",
+        "title": null,
+        "description": "ผลตอบแทนการลงทุน (ROI) สำหรับโรงพยาบาลเพิ่มขึ้นอย่างมีนัยสำคัญ เล็กลงจาก 10 ปีเหลือเพียง 3-4 ปี โซลูชั่นของเรานำมาสู่ประโยชน์ทางการเงินที่แท้จริง"
+      }
+    ],
+    "meta": null,
+    "banner": {
+      "id": 2,
+      "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Clinic_cff46c6f5e.png",
+      "title": "วิธีการทำงานสำหรับคลินิก",
+      "cardSection": [
+        {
+          "id": 3,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "description": "ความหลงใหลของเราคือการกลับคืนความฝันของครอบครัวที่มีความสุขและมีสุขภาพดีที่สุดที่ GenEmbryomics เราสนับสนุนการตัดสินใจสำหรับผู้ป่วย IVF โดยให้ความสำคัญกับสุขภาพของพวกเขาตลอดกระบวนการ"
+        },
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "description": "ในขณะที่การคัดกรอง IVF มาตรฐานสามารถตรวจพบความผิดปรกติที่ถูกทำนายได้ อาจพลาดการผิดปรกติที่ไม่คาดคิดหรือการกลายพันธุ์ SNP ที่เกิดขึ้นใหม่ ในฐานะผู้บุกเบิกในการส่องกล้องยีนทั้งหมด GenEmbryomics ให้คำตอบที่ล้ำสมัยเพื่อช่วยให้สามารถตัดสินใจและดูแลอย่างดีเยี่ยม"
+        }
+      ]
+    },
+    "keyHightlighSection": {
+      "id": 1,
+      "title": "จุดเด่น",
+      "description": "Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+      "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Highlight_HIW_Clinic_6d14b2c2be.png",
+      "reverse": false,
+      "contentBlock": [
+        {
+          "id": 4,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content1_89eff12767.png",
+          "content": "ยูนิตคอมแพ็คตัวเลเซอร์ขนาดเล็กแต่ประสิทธิภาพสูงจะเพิ่มความสะดวกในการเข้าถึงการรักษาสำหรับร้อยละ 70 ของการเริ่มต้นในการรักษาโรคมะเร็งที่ได้รับการรักษาด้วยโปรตอนและสามารถเป็นประโยชน์กับผู้ป่วยใหม่กว่า 2 ล้านคนต่อปี"
+        },
+        {
+          "id": 5,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content2_c2af53cabd.png",
+          "content": "แบบแผนธุรกิจใหม่ของเรามีเป้าหมายในการเพิ่ม ARR เพิ่มเศรษฐกิจการผลิตและขยายการเข้าถึงของผู้ป่วยเกินกว่าโรงพยาบาลขนาดใหญ่"
+        },
+        {
+          "id": 6,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content3_b2d0b75b9d.png",
+          "content": "เรามีความร่วมมือกับ Proton International และ Thales รวมถึง IBA"
+        },
+        {
+          "id": 7,
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Clinic_Content4_80544bcae6.png",
+          "content": "การจัดทุนจากมูลนิธิสำหรับศูนย์รักษาโปรตอนในสหรัฐฯ การร่วมมือในการวิจัยและพัฒนากับ CERN ในเจนีวา"
+        }
+      ]
+    },
+    "locale": "th"
+  }
+}
