@@ -84,12 +84,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "Our passion is turning dreams of a happy, healthy family into reality at GenEmbryomics. We fully support your decision-making for IVF patients, prioritizing their well-being throughout the process."
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "While standard IVF screening detects predicted genetic abnormalities, it may miss unexpected abnormalities or De novo SNP mutations. As pioneers in whole genome sequencing, GenEmbryomics provides advanced solutions, enabling informed decisions and exceptional care."
         }
       ]
@@ -210,12 +210,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "Đam mê của chúng tôi là biến những giấc mơ về một gia đình hạnh phúc và khỏe mạnh thành hiện thực tại GenEmbryomics. Chúng tôi hoàn toàn hỗ trợ quyết định của bạn cho bệnh nhân IVF, ưu tiên sức khỏe của họ trong suốt quá trình."
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "Trong khi sàng lọc IVF tiêu chuẩn phát hiện các bất thường di truyền dự đoán, nó có thể bỏ sót các bất thường không mong đợi hoặc đột biến SNP De novo. Là người tiên phong trong việc xếp chồng toàn bộ gen, GenEmbryomics cung cấp các giải pháp tiên tiến, giúp đưa ra quyết định thông thái và chăm sóc đặc biệt."
         }
       ]
@@ -336,12 +336,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "Naszą pasją jest zamienianie marzeń o szczęśliwej, zdrowej rodzinie w rzeczywistość w GenEmbryomics. W pełni wspieramy decyzje dotyczące pacjentów IVF, priorytetowo traktując ich dobro przez cały proces."
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "Podczas gdy standardowe badanie IVF wykrywa przewidywane nieprawidłowości genetyczne, może pomijać nieoczekiwane nieprawidłowości lub mutacje SNP de novo. Jako pionierzy w sekwencjonowaniu całego genomu, GenEmbryomics oferuje zaawansowane rozwiązania, umożliwiając podjęcie świadomych decyzji i zapewnienie wyjątkowej opieki."
         }
       ]
@@ -462,12 +462,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "Ο πάθος μας είναι να μετατρέπουμε τα όνειρα μιας ευτυχισμένης και υγιούς οικογένειας σε πραγματικότητα στο GenEmbryomics. Υποστηρίζουμε πλήρως τη λήψη αποφάσεων για τους ασθενείς IVF, δίνοντας προτεραιότητα στην ευεξία τους καθ' όλη τη διαδικασία."
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "Ενώ η τυπική έλεγχος IVF ανιχνεύει προβλεπόμενες γενετικές ανωμαλίες, μπορεί να παραλείψει απροσδόκητες ανωμαλίες ή μεταλλάξεις De novo SNP. Ως πρωτοπόροι στην ολογονομική αλληλουχία, το GenEmbryomics παρέχει προηγμένες λύσεις που δίνουν τη δυνατότητα ενημερωμένων αποφάσεων και εξαίρετης φροντίδας."
         }
       ]
@@ -588,12 +588,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "Notre passion est de concrétiser les rêves d'une famille heureuse et en bonne santé chez GenEmbryomics. Nous soutenons pleinement vos décisions pour les patients de FIV, en accordant la priorité à leur bien-être tout au long du processus."
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "Alors que le dépistage standard de la FIV détecte les anomalies génétiques prévues, il peut passer à côté des anomalies inattendues ou des mutations SNP de novo. En tant que pionniers de la séquençage complet du génome, GenEmbryomics propose des solutions avancées, permettant de prendre des décisions éclairées et offrant des soins exceptionnels."
         }
       ]
@@ -714,12 +714,12 @@
       "cardSection": [
         {
           "id": 3,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Person_Arms_Spread_4761681aea.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Person_Arms_Spread_8694cfe4b8.png",
           "description": "ความหลงใหลของเราคือการกลับคืนความฝันของครอบครัวที่มีความสุขและมีสุขภาพดีที่สุดที่ GenEmbryomics เราสนับสนุนการตัดสินใจสำหรับผู้ป่วย IVF โดยให้ความสำคัญกับสุขภาพของพวกเขาตลอดกระบวนการ"
         },
         {
           "id": 4,
-          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/About_Us_Hand_Heart_7df5861391.png",
+          "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "ในขณะที่การคัดกรอง IVF มาตรฐานสามารถตรวจพบความผิดปรกติที่ถูกทำนายได้ อาจพลาดการผิดปรกติที่ไม่คาดคิดหรือการกลายพันธุ์ SNP ที่เกิดขึ้นใหม่ ในฐานะผู้บุกเบิกในการส่องกล้องยีนทั้งหมด GenEmbryomics ให้คำตอบที่ล้ำสมัยเพื่อช่วยให้สามารถตัดสินใจและดูแลอย่างดีเยี่ยม"
         }
       ]

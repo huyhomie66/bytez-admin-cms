@@ -1,5 +1,5 @@
-{
-  "en": {
+[
+  {
     "theProductSection": {
       "id": 7,
       "title": "The Product",
@@ -105,9 +105,9 @@
         }
       ]
     },
-    "locale": "vi"
+    "locale": "en"
   },
-  "vi": {
+  {
     "theProductSection": {
       "id": 7,
       "title": "Sản phẩm",
@@ -215,7 +215,7 @@
     },
     "locale": "vi"
   },
-  "pl": {
+  {
     "theProductSection": {
       "id": 7,
       "title": "Produkt",
@@ -323,60 +323,60 @@
     },
     "locale": "pl"
   },
-  "el": {
+  {
     "theProductSection": {
-      "id": 7,
+      "id": 43,
       "title": "Το προϊόν",
       "description": "Έχουμε αναπτύξει και πρωτοπορήσει στην πιο καινοτόμο δοκιμή ολογονομικής αλληλουχίας εμβρυικής σκρινινγκ που είναι διαθέσιμη σήμερα. \n\nΤι σημαίνει αυτό; Απλά, συνεργαζόμαστε με την τυπική θεραπεία IVF για να παρέχουμε λεπτομερή σκρινινγκ πριν αποφασιστεί η μεταφορά του εμβρύου. Οι δοκιμές μας αναζητούν συγκεκριμένες κληρονομικές γενετικές μεταλλάξεις - αυτές μπορεί να προβλεφθούν λόγω της παρουσίας συγκεκριμένων γονιδίων στους γονείς Ή της παρουσίας απροσδόκητων μεταλλάξεων που βρέθηκαν στο έμβρυο.",
       "reverse": false,
       "image": [
         {
-          "id": 31,
+          "id": 181,
           "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
         },
         {
-          "id": 32,
+          "id": 182,
           "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
         },
         {
-          "id": 33,
+          "id": 183,
           "imageUrl": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/HIW_Product1_bba11227ae.png"
         }
       ]
     },
     "simpleTitleSection": {
-      "id": 2,
+      "id": 22,
       "title": "Τόσο απλό όσο 1,2,3"
     },
     "listTitleSection": [
       {
-        "id": 4,
+        "id": 82,
         "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent42_DNA_Test_6150919ee6.png",
         "title": "Τίτλος Α",
         "description": "Η διαδικασία μας για το σκρινινγκ είναι απλή και εύκολη στην οργάνωση. Χρησιμοποιήστε τον πύλη ασθενούς της GenEmbryomics για την συντονισμένη συλλογή δείγματος DNA με τον γιατρό σας."
       },
       {
-        "id": 6,
+        "id": 83,
         "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Genetic_2_43fc049bcb.png",
         "title": "Τίτλος Β",
         "description": "Στις υπερσύγχρονες εγκαταστάσεις μας, οι ειδικοί μας αναλύουν τις αλληλουχίες των γονιδίων του εμβρύου για παθήσεις ή γενετικές μεταλλάξεις. Τα αποτελέσματα συντίθενται σε ένα σύνολο GenomeScreen με κατευθυντήριες γραμμές για την μελλοντική υγεία του εμβρύου."
       },
       {
-        "id": 5,
+        "id": 84,
         "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Filled_Outline_3ccba647f6.png",
         "title": "Τίτλος Γ",
         "description": "Λάβετε μια εμπιστευτική και συνολική έκθεση αξιολόγησης. Το σκρινινγκ της GenEmbryomics παρέχει πολύτιμες πληροφορίες για γονείς και εμβρύα. Πάρτε ενημερωμένες αποφάσεις για την υγεία του μωρού."
       }
     ],
     "simpleTitleWithSubSection": {
-      "id": 1,
+      "id": 5,
       "title": "Ποιος το χρειάζεται;",
       "subTitle": "Η WGS είναι ενδεικτική για κάθε ασθενή IVF, αλλά συνιστάται ιδιαίτερα σε ζευγάρια με αρσενικούς συντρόφους άνω των 40 ετών.",
       "buttonTitle": null,
       "buttonLink": null
     },
     "contactSection": {
-      "id": 1,
+      "id": 5,
       "title": "Σας ακούμε!",
       "subTitle": "Κατανοούμε ότι μπορεί να έχετε πολλές επιπλέον ερωτήσεις και θα ήμασταν πολύ ευτυχείς να τις συζητήσουμε μαζί σας.",
       "buttonTitle": "Μάθετε περισσότερα",
@@ -390,40 +390,40 @@
       "type": null
     },
     "banner": {
-      "id": 3,
+      "id": 17,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/banner_HIW_Parent_3408da7d1f.png",
       "title": "Πώς λειτουργεί για τους γονείς",
       "cardSection": [
         {
-          "id": 5,
+          "id": 31,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Hand_Heart_a48e8ef6ff.png",
           "description": "Οι ειδικοί μας δίνουν προτεραιότητα στην ευημερία της οικογένειάς σας και στην ανάπτυξη του μωρού σας. Μπορείτε να βασίζεστε σε μας για ατομική υποστήριξη και την καλύτερη δυνατή αρχή."
         },
         {
-          "id": 6,
+          "id": 32,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent_Handshake_7a8b50cc16.png",
           "description": "Η GenEmbryomics υποστηρίζει τον στόχο σας για μια ασφαλή και υγιή μελλοντική οικογένεια. Η προηγμένη εξέταση των εμβρύων πριν από την εμφύτευση συμπληρώνει τη θεραπεία IVF σας."
         }
       ]
     },
     "howToMakeSection": {
-      "id": 1,
+      "id": 5,
       "title": "Πώς να κάνετε την IVF απαλλαγμένη από γενετικές ασθένειες",
       "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/How_It_Work_Parent1_150d01ccee.png",
       "reverse": false,
       "contentBlock": [
         {
-          "id": 8,
+          "id": 36,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
           "content": "Σε δυσκολίες για να καταλάβουν ποιος ακριβώς είναι επιπλέον η ομορφιά της χρήσης της ευκαιρίας αυτής της ευκαιρίας"
         },
         {
-          "id": 9,
+          "id": 37,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
           "content": "Οι εργασίες αυτές αυτές αυτές αυτές αυτές αυτές αυτές αυτές αυτές αυτές"
         },
         {
-          "id": 10,
+          "id": 38,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
           "content": "Λόγω των μεγάλων επιπτώσεων αυτές είναι μεγάλες επιπτώσεις επιπτώσεις που οδηγούν στην αποφυγή ενός μεγάλου ποσού"
         }
@@ -431,7 +431,7 @@
     },
     "locale": "el"
   },
-  "fr": {
+  {
     "theProductSection": {
       "id": 7,
       "title": "Le Produit",
@@ -523,23 +523,23 @@
         {
           "id": 8,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
-          "content": "Comprendre qui exactement est la beauté supplémentaire d'utiliser cette opportunité"
+          "content": "Mais afin que vous puissiez voir d'où vient toute cette erreur née de ceux qui accusent le plaisir et louent la douleur, j'ouvrirai toute l'affaire, et elle-même"
         },
         {
           "id": 9,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
-          "content": "Ces travaux sont ceux qui ont ces ces ces ces ces ces ces ces ces ces ces ces ces ces ces ces ces"
+          "content": "En tant que découvreur de la vérité et en tant qu'architecte d'une vie heureuse, j'expliquerai ce qui a été dit. Car personne ne méprise ou ne hait le plaisir lui-même parce que c'est un plaisir"
         },
         {
           "id": 10,
           "image": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/check_mark_1_d14c561d9c.png",
-          "content": "En raison de ces énormes impacts, ces énormes impacts conduisent à l'évitement d'une grande quantité"
+          "content": "Mais parce que de grandes douleurs suivent ceux qui ne savent pas poursuivre le plaisir avec raison. Il n'y a d'ailleurs personne qui éprouve de la douleur parce que c'est de la douleur"
         }
       ]
     },
     "locale": "fr"
   },
-  "th": {
+  {
     "theProductSection": {
       "id": 7,
       "title": "ผลิตภัณฑ์",
@@ -647,4 +647,4 @@
     },
     "locale": "th"
   }
-}
+]
