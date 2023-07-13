@@ -95,6 +95,16 @@
         }
       },
       "component": "system-kit.image-with-desc-third"
+    },
+    "formSubscribeSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.simple-title-with-button"
     }
   }
 }

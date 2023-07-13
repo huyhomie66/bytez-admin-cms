@@ -35,6 +35,24 @@
         }
       },
       "component": "system-kit.banner-secondary-kit"
+    },
+    "formSubscribeSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "system-kit.simple-title-with-button"
+    },
+    "maybeSectionTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

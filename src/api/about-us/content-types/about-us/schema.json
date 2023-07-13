@@ -95,6 +95,14 @@
         }
       },
       "component": "system-kit.simple-title-with-button"
+    },
+    "theTeamTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-13T02:05:57.336Z"
+    "x-generation-date": "2023-07-13T05:34:24.965Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -135,6 +135,9 @@
           "formSubscribeSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
           },
+          "theTeamTitle": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -187,6 +190,9 @@
               },
               "formSubscribeSection": {
                 "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+              },
+              "theTeamTitle": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -350,6 +356,9 @@
           },
           "formSubscribeSection": {
             "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
+          "theTeamTitle": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -5311,6 +5320,12 @@
           "keyHightlighSection": {
             "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
           },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
+          "ourHighlightsTitle": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -5351,6 +5366,12 @@
               },
               "keyHightlighSection": {
                 "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+              },
+              "formSubscribeSection": {
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+              },
+              "ourHighlightsTitle": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -5502,6 +5523,12 @@
           },
           "keyHightlighSection": {
             "$ref": "#/components/schemas/SystemKitImageWithDescSecondaryComponent"
+          },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
+          "ourHighlightsTitle": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -5908,6 +5935,9 @@
           "howToMakeSection": {
             "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
           },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -5948,6 +5978,9 @@
               },
               "howToMakeSection": {
                 "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
+              },
+              "formSubscribeSection": {
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
               },
               "locale": {
                 "type": "string"
@@ -6099,6 +6132,9 @@
           },
           "howToMakeSection": {
             "$ref": "#/components/schemas/SystemKitImageWithDescThirdComponent"
+          },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
           },
           "createdAt": {
             "type": "string",
@@ -6524,6 +6560,12 @@
           "bannerInvestor": {
             "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
           },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
+          "maybeSectionTitle": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -6546,6 +6588,12 @@
               },
               "bannerInvestor": {
                 "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+              },
+              "formSubscribeSection": {
+                "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+              },
+              "maybeSectionTitle": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -6679,6 +6727,12 @@
           },
           "bannerInvestor": {
             "$ref": "#/components/schemas/SystemKitBannerSecondaryKitComponent"
+          },
+          "formSubscribeSection": {
+            "$ref": "#/components/schemas/SystemKitSimpleTitleWithButtonComponent"
+          },
+          "maybeSectionTitle": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
