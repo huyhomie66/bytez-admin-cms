@@ -1,5 +1,5 @@
-{
-  "en": {
+[
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -170,7 +170,7 @@
     },
     "locale": "en"
   },
-  "vi": {
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -341,7 +341,7 @@
     },
     "locale": "vi"
   },
-  "pl": {
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -512,7 +512,7 @@
     },
     "locale": "pl"
   },
-  "el": {
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -683,7 +683,7 @@
     },
     "locale": "el"
   },
-  "fr": {
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -854,7 +854,7 @@
     },
     "locale": "fr"
   },
-  "th": {
+  {
     "banner": {
       "id": 1,
       "backgroundImage": "https://strapi-upload-images-bucket.s3.ap-southeast-2.amazonaws.com/Homepage1_42cd53492f.png",
@@ -1023,4 +1023,4 @@
     },
     "locale": "th"
   }
-}
+]

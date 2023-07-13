@@ -1,5 +1,5 @@
-{
-  "en": {
+[
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -108,7 +108,7 @@
     "formSubscribeSection": null,
     "locale": "en"
   },
-  "vi": {
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -217,7 +217,7 @@
     "formSubscribeSection": null,
     "locale": "vi"
   },
-  "pl": {
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -326,7 +326,7 @@
     "formSubscribeSection": null,
     "locale": "pl"
   },
-  "el": {
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -435,7 +435,7 @@
     "formSubscribeSection": null,
     "locale": "el"
   },
-  "fr": {
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -544,7 +544,7 @@
     "formSubscribeSection": null,
     "locale": "fr"
   },
-  "th": {
+  {
     "theTeamMemberSection": [
       {
         "id": 1,
@@ -653,4 +653,4 @@
     "formSubscribeSection": null,
     "locale": "th"
   }
-}
+]
